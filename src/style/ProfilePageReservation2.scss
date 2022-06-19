@@ -1,0 +1,564 @@
+.fv-ProfilePageReservation2 {
+
+  .fv-ProfilePageLeftBody {
+
+    .fv-ProfilePageUserSetInfo input {
+      width: 100%;
+      color: #919191;
+      // padding-right: 8%;
+    }
+
+    .fv-ProfilePageUserSetInfo {
+
+      select {
+        word-wrap: normal;
+        width: 100%;
+        height: 54px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        border-radius: 14px;
+      }
+
+      .fv-ProfilePageUserSetInfoButton input {
+        width: 100%;
+      }
+
+      .fv-ProfilePageReservationSetInfo {
+        border: 1px solid rgba(145, 145, 145, 0.2);
+        box-sizing: border-box;
+        border-radius: 15px;
+        height: 75px;
+        align-items: center;
+
+        .col-md-2 {
+          padding: 0;
+          margin-left: 1%;
+        }
+
+        .col-md-4 {
+          margin-left: -1%;
+          margin-right: -0.5%;
+        }
+
+        .fv-ProfilePageUserSetInfoButton input {
+          width: 100%;
+          margin-right: 90%;
+        }
+
+      }
+
+      .fv-profilePaeReservation2PayButton, .fv-profilePaeReservation2PayButtonSet, .fv-profilePaeReservation2PayButtonPayed, .fv-profilePaeReservationFaild {
+        /* margin-left: 7%; */
+        margin: auto;
+        border-radius: 16px;
+        text-align: center;
+
+        input {
+          height: 45px;
+          background: #d9d9d9;
+          border-radius: 16px;
+          border: 1px solid rgba(0, 0, 0, 0);
+          box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.08);
+          width: 108%;
+          margin-left: 4%;
+          margin-right: 3%;
+          color: white;
+        }
+      }
+
+      .fv-profilePaeReservation2PayButtonSet, .fv-profilePaeReservationFaild {
+        input {
+          background: #15BE29;
+        }
+      }
+
+      .fv-profilePaeReservation2PayButtonPayed {
+        input {
+          background: #FBFBFB;
+          color: #52F657;
+          border: 1px solid #52F657;
+          font-size: 16px;
+          margin-top: -5%;
+        }
+
+        .fv-status2-reservation .fv-status1-reservation-rightButton input {
+          background: #15BE29;
+          color: white;
+          border: none;
+          margin-left: -12%;
+          font-size: 16px;
+          margin-top: -5%;
+        }
+      }
+
+    }
+
+  }
+
+  .fv-profilePaeReservation2PriceBox {
+    background: #FBFBFB;
+    border-radius: 15px;
+    width: 90%;
+    margin-right: 5.5%;
+    padding-right: 2.5%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+
+    .col-md-4 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+      padding-top: 7%;
+    }
+  }
+
+  .fv-ProfilePageReservation2ProductDate {
+    display: inherit;
+    direction: rtl;
+
+    .fa, .fas {
+      margin-top: 2%;
+      margin-left: 7px;
+    }
+  }
+
+  .fv-ProfilePageReservation2ProductLocaton, .fv-ProfilePageReservation2ProductDate {
+    a {
+      margin-right: 3%;
+    }
+  }
+
+  .fv-ProfilePageReservation2ProductLocaton .fa, .fv-ProfilePageReservation2ProductLocaton .fas {
+    font-size: 15px;
+    margin-left: 7px;
+  }
+
+  .fv-borderButton {
+    border-bottom: 1px solid rgba(145, 145, 145, 0.2);
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  .fv-product {
+    padding-top: 6%;
+    padding-bottom: 4%;
+    width: 105%;
+    margin-right: -3%;
+    margin-top: 5%;
+
+    .col-md-5 {
+      /* padding-right: 0; */
+    }
+
+    .col-md-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      text-align: end;
+      padding-right: 10.5%;
+    }
+
+    .col-md-7 {
+      flex: 0 0 57.333333%;
+      padding-right: 0%;
+      text-align: end;
+
+      h5 {
+        font-size: 15px;
+      }
+    }
+
+
+    .fv-productTopic {
+      padding-right: 10.5%;
+      font-size: 19px;
+      color: #15BE29;
+      margin-top: 6%;
+      text-align: end;
+    }
+
+    .row {
+      direction: ltr;
+
+      .col-md-2 {
+        padding-right: 26px;
+        margin-left: -2px;
+        margin-right: -5%;
+        font-size: 9px;
+        margin-top: 3%;
+      }
+    }
+
+    .fv-productImage {
+      margin-top: -12%;
+    }
+  }
+
+  .fv-ProfilePageReservation2ImageProductContentTopOne {
+    margin-top: 1%;
+
+    .col-md-7, .col-md-5, .col-md-4, .col-md-3 {
+      padding-left: 4%;
+      background: #FBFBFB;
+      border-radius: 15px;
+      margin-left: 12%;
+      height: 172%;
+      font-size: 12.5px;
+      display: inherit;
+      align-items: center;
+      flex: 0 0 47.9%;
+      justify-content: center;
+      padding: 0;
+      color: #E88F0A;
+
+      input {
+        width: 9%;
+        height: 36%;
+        background: #E88F0A;
+        margin-left: 3%;
+      }
+    }
+
+    .col-md-5 {
+      color: #2F80ED;
+      max-width: 61.666667%;
+      flex: 0 0 59.333333%;
+
+      input {
+        width: 11%;
+        height: 36%;
+        border-radius: 34px;
+        background: #2F80ED;
+        margin-left: 3%;
+      }
+    }
+
+    .col-md-4 {
+      color: #3EC886;
+      max-width: 29.666667%;
+
+      input {
+        width: 14%;
+        height: 36%;
+        border-radius: 34px;
+        background: #3EC886;
+        margin-left: 3%;
+      }
+    }
+
+    .col-md-7 {
+      flex: 0 0 65.9%;
+    }
+  }
+
+  .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-7 input, .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-5 input {
+    width: 12px;
+    height: 12px;
+    background: #E88F0A;
+    margin-left: 3%;
+  }
+
+  .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-5 input {
+    background: #2F80ED;
+  }
+
+  .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-4 input {
+    width: 12px;
+    height: 12px;
+    background: #15be29;
+    margin-left: 3%;
+  }
+
+  .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-3 input {
+    width: 12px;
+    height: 12px;
+    background: #EB5757;
+    margin-left: 3%;
+  }
+
+  .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-3 {
+    color: #EB5757;
+    max-width: 35.666667%;
+    flex: 0 0 35.333333%;
+  }
+
+  .fv-product.fv-mobileProduct .fv-status1-reservation .col-md-6 {
+    padding: 0;
+    padding-left: 4%;
+    padding-right: 7%;
+  }
+
+  .fv-product.fv-mobileProduct .fv-status1-reservation .fv-status1-reservation-leftButton {
+    margin-right: -3%;
+    margin-left: 2%;
+    font-size: 16px;
+    margin-top: -5%;
+  }
+
+  .fv-product.fv-mobileProduct .fv-status1-reservation .fv-status1-reservation-rightButton {
+    margin-left: -4%;
+    font-size: 16px;
+    margin-top: -5%;
+  }
+
+  .fv-status2-reservation .fv-areYouSure-text {
+    direction: rtl;
+    margin: auto;
+    place-content: end;
+    margin-bottom: 10%;
+    margin-right: 9%;
+    display: block;
+    margin-left: 9%;
+  }
+}
+
+.fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButton.fv-myAccommodationPageFinanceButton input, .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButtonSet.fv-myAccommodationPageFinanceButton input {
+  margin-left: -4%;
+  margin-right: 4%;
+}
+
+.fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-product.fv-mobileProduct .fv-ProfilePageReservation2ImageProductContentTopOne input {
+  border-radius: 38px;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-4 {
+    color: #3EC886;
+    max-width: 36.666667%;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-5 {
+    color: #2F80ED;
+    max-width: 61.666667%;
+    flex: 0 0 59.333333%;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 991px) {
+  .fv-ProfilePageReservation2 .fv-product {
+    width: 110%;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 764px) {
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ProductLocaton a, .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ProductDate a {
+    font-size: 11px;
+  }
+  .fv-ProfilePageReservation2 .fv-product .col-md-7 h5 {
+    font-size: 10px;
+  }
+  .fv-ProfilePageReservation2 .fv-product .col-md-7 {
+    flex: 0 0 59.333333%;
+    padding-right: 4%;
+    text-align: end;
+  }
+  .fv-ProfilePageReservation2 .fv-product .col-md-3 h5 {
+    font-size: 11px;
+  }
+  .fv-ProfilePageReservation2 .fv-product .row .col-md-2 {
+    padding-right: 26px;
+    margin-left: -9px;
+    margin-right: -10%;
+    font-size: 8px;
+    margin-top: 3%;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ProductLocaton .fa, .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ProductLocaton .fas {
+    font-size: 10px;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-7, .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-5, .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-4, .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-3 {
+    font-size: 9.5px;
+    margin-left: 14%;
+  }
+  .fv-ProfilePageReservation2 .fv-product {
+    width: 120%;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButtonPayed .fv-status2-reservation .fv-status1-reservation-rightButton input {
+    margin-left: -21%;
+    font-size: 14px;
+  }
+  .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-reservationActive, .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-transaction, .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-AccomoddationActive, .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-RequestedReservationActive, .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-myCalenderActive, .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-updateProfileActive, .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-gustCommentsActive, .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-walletActive {
+    font-size: 16PX;
+    color: black;
+  }
+}
+
+@media (max-width: 764px) {
+  .fv-ProfilePageReservation2 {
+    .fv-product {
+      width: 107%;
+    }
+
+    .row .fv-product {
+      margin-right: -3%;
+    }
+
+    .row .fv-profilePaeReservation2PriceBox {
+      margin-left: 5%;
+    }
+
+    .row .fv-borderButton {
+      margin-left: 5%;
+    }
+
+    .fv-productCapacityBox {
+      margin-top: -2%;
+      font-size: 16px;
+    }
+
+    .fv-product .fv-productTopic {
+      margin-top: 10%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButton input, .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButtonSet input {
+      background: rgba(145, 145, 145, 0.5);
+    }
+
+    .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-7, .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-5, .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-4, .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-3 {
+      margin-left: 8%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo .col-md-2 {
+      padding: 0;
+      margin-left: 0%;
+      margin-right: 5.5%;
+      margin-top: 2%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+      border: 1px solid rgba(145, 145, 145, 0.2);
+      box-sizing: border-box;
+      border-radius: 15px;
+      height: 6%;
+      align-items: center;
+      padding-top: 5%;
+      padding-bottom: 46%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo .col-md-4 {
+      margin-left: 0%;
+      margin-right: 0;
+    }
+
+    .fv-ProfilePageUserSetInfoButton {
+      // display: none;
+    }
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo .fv-ProfilePageUserSetInfoButton input {
+    width: 65%;
+    margin-right: -4%;
+    margin-left: 22%;
+    margin-top: 2%;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    padding-bottom: 2vh;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservationRightCalendar .DatePicker__calendarContainer.-top {
+    z-index: 100 !important;
+    position: absolute !important;
+    margin-right: 60px !important;
+    padding-right: 60px !important;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservationLeftCalendar .DatePicker__calendarContainer.-top {
+    z-index: 100 !important;
+    position: absolute !important;
+    margin-left: 20px !important;
+    padding-left: 20px !important;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo.fv-profileMyReservationSearchBox {
+    border: 1px solid rgba(145, 145, 145, 0.2);
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 75%;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 28%;
+  }
+  .fv-DisplayPageDetailsRightBody.fv-displayPageOnly .col-md-2 h4 {
+    display: block
+  }
+  .fv-DisplayPageDetailsRightBody.fv-displayPageOnly .col-md-2 {
+    flex: 0 0 45.666667%;
+    max-width: 30.666667%;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButtonPayed .fv-status2-reservation .fv-status1-reservation-rightButton input {
+    margin-left: -3%;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButtonPayed input {
+    margin-left: 11%;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservationFaild .fv-status1-reservation input, .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservationFaild .fv-status2-reservation input {
+    margin-left: 10%;
+  }
+  .fv-ProfilePageReservation2 .fv-product.fv-mobileProduct .fv-status1-reservation .fv-status1-reservation-leftButton {
+    margin-right: -3%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 411px) {
+  .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    padding-bottom: 2vh;
+  }
+}
+
+@media (max-width: 380px) {
+  .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    // padding-bottom: 43%;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservationRightCalendar .DatePicker__calendarContainer.-top {
+    z-index: 100 !important;
+    position: absolute !important;
+    margin-right: 40px !important;
+    padding-right: 40px !important;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservationLeftCalendar .DatePicker__calendarContainer.-top {
+    z-index: 100 !important;
+    position: absolute !important;
+    margin-left: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    // padding-bottom: 46%;
+  }
+}
+
+@media (max-width: 320px) {
+  .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    padding-bottom: 2vh;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-4 {
+    color: #3EC886;
+    max-width: 38.666667%;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-5 {
+    color: #2F80ED;
+    max-width: 61.666667%;
+    flex: 0 0 59.333333%;
+  }
+}
+
+@media (max-width: 280px) {
+  .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    padding-bottom: 85%;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-7, .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-5, .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-4, .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-3 {
+    font-size: 11.5px;
+  }
+  .fv-ProfilePageReservation2 .fv-productCapacityBox {
+    margin-top: 4%;
+    font-size: 12px;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ProductLocaton .fa, .fv-ProfilePageReservation2 .fv-ProfilePageReservation2ProductLocaton .fas {
+    font-size: 14px;
+  }
+  .fv-ProfilePageReservation2 .fv-ProfilePageReservationLeftCalendar .DatePicker__calendarContainer.-top {
+    z-index: 100 !important;
+    position: absolute !important;
+    margin-left: 10px !important;
+    padding-left: 10px !important;
+  }
+}

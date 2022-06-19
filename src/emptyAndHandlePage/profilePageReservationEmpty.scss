@@ -1,0 +1,81 @@
+.fv-profilePageReservationEmpty {
+  [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    width: 12%;
+    line-height: 54px;
+    margin-top: 3%;
+    padding-right: 9px;
+    border: 1px solid #88888836;
+    border-radius: 15px;
+    box-shadow: 0px 1px 1px #88888836;
+    position: absolute;
+    background-color: #15BE29;
+    color: white;
+    margin-top: 1%;
+    margin-right: 50%;
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo {
+    /* background-color: #eee; */
+    /* width: 200px; */
+    /* border: 1px dotted black; */
+    margin-right: 0%;
+    display: block;
+    -ms-overflow-style: none;
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo .fv-ProfilePageReservationImage p, .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo .fv-ProfilePageReservationImage img {
+    margin-right: 28%;
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo h5 {
+    margin-top: 2%;
+    font-size: 18px;
+    margin-bottom: 17%;
+  }
+}
+
+
+@media (max-width: 948px) {
+  .fv-profilePageReservationEmpty [type=button]:not(:disabled), .fv-profilePageReservationEmpty [type=reset]:not(:disabled), .fv-profilePageReservationEmpty [type=submit]:not(:disabled), .fv-profilePageReservationEmpty button:not(:disabled) {
+    cursor: pointer;
+    width: 12%;
+    line-height: 54px;
+    margin-top: 3%;
+    padding-right: 9px;
+    border: 1px solid #88888836;
+    border-radius: 15px;
+    box-shadow: 0px 1px 1px #88888836;
+    position: absolute;
+    background-color: #15BE29;
+    color: white;
+    margin-top: 23%;
+    margin-right: -10%;
+  }
+  .fv-profilePageReservationEmpty .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo .fv-ProfilePageReservationImage p, .fv-profilePageReservationEmpty .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo .fv-ProfilePageReservationImage img {
+    margin-right: 0%;
+  }
+}
+
+@media (max-width: 764px) {
+  .fv-profilePageReservationEmpty [type=button]:not(:disabled), .fv-profilePageReservationEmpty [type=reset]:not(:disabled), .fv-profilePageReservationEmpty [type=submit]:not(:disabled), .fv-profilePageReservationEmpty button:not(:disabled) {
+    /* cursor: pointer; */
+    width: 41%;
+    line-height: 54px;
+    margin-top: 3%;
+    padding-right: 9px;
+    border: 1px solid #88888836;
+    border-radius: 15px;
+    box-shadow: 0px 1px 1px #88888836;
+    position: absolute;
+    background-color: #15BE29;
+    color: white;
+    /* margin-top: 80%; */
+    margin-right: 44%;
+    margin-top: -4%;
+  }
+}
+
+@media (max-width: 570px) {
+
+}

@@ -1,0 +1,224 @@
+.fv-ProfilePageTransaction2{
+  table, td, th {
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  th, td {
+    padding: 15px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-size: 14px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 15px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px #ddd; /* this draws the table border  */
+    margin-top: 3%;
+    .fv-tableTitle{
+      border-radius: 15px;
+      border-style: hidden;
+      border-bottom:1px solid rgba(145, 145, 145, 0.5);
+      th{
+        background: rgba(145, 145, 145, 0.2);
+        border: 1px solid rgba(145, 145, 145, 0.5);
+        padding-top: 2%;
+        padding-bottom: 1%;
+        font-size: 16px;
+      }
+      .fv-tableTitleRightOne{
+        border-radius:0px 15px 0 0;
+      }
+      .fv-tableTitleLeftOne{
+        border-radius:15px 0 0 0 ;
+      }
+      .fv-tableTitleContent{
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+    }
+  }
+
+   .fv-ProfilePageLeftBody{
+     .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo{
+       box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.08);
+       height: 42vw;
+     }
+     .fv-ProfilePageUserSetInfo {
+       .fv-ProfilePageReservationSetInfo {
+         padding-right: 2%;
+         margin-right: 0%;
+         margin-left: 0%;
+         .fv-ProfilePageUserSetInfoButton input {
+           width: 75%;
+           margin-right: 155%;
+         }
+       }
+     }
+    }
+
+
+}
+
+@media (max-width: 991px) and (min-width: 764px){}
+@media (max-width: 762px) {
+  .fv-ProfilePageTransaction2 {
+
+    table {
+      border-collapse: collapse;
+      width: 104%;
+      border-radius: 15px;
+      border-style: hidden;
+      box-shadow: 0 0 0 1px #ddd;
+      margin-top: 8%;
+      overflow-x: auto;
+      /* overflow: auto; */
+      display: inline-block !important;
+      /* overflow: auto; */
+      white-space: nowrap;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+
+
+      margin-top: -46%;
+
+      .fv-tableTitle{
+        .fv-tableTitleLeftOne {
+          border-radius: 0;
+        }
+        th {
+          background: rgba(145, 145, 145, 0.2);
+          border: 1px solid rgba(145, 145, 145, 0.5);
+          padding-top: 30px;
+          padding-bottom: 30px;
+          font-size: 18px;
+          height: 21px;
+        }
+      }
+     }
+    th , td{
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+    table td {
+      font-size: 1rem;
+    }
+    .fv-ProfilePageLeftBody{
+      .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo {
+        box-shadow: none;
+      }
+      .fv-ProfilePageUserSetInfo{
+        .fv-ProfilePageReservationSetInfo {
+          padding-right: 1%;
+          margin-right: 0%;
+          margin-left: -5%;
+          padding-bottom: 36%
+        }
+        .col-md-3 {
+          margin-top: 2%;
+          padding-right: 5px;
+          padding-left: 5px;
+          margin-right: 5%;
+        }
+        input {
+          width: 100%;
+          color: #919191;
+          padding-right: 7%;
+          margin-right: -10%;
+        }
+      }
+    }
+    .fv-footerMenuMobileTitle {
+     // margin-top: 100%;
+    }
+  }
+
+  .fv-ProfilePageTransaction2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo .fv-ProfilePageUserSetInfoButton input {
+    width: 53%;
+    padding: 0;
+    margin: 0;
+    margin-left: 6%;
+  }
+
+  .fv-ProfilePageTransaction2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    padding-right: 1%;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-bottom: 51%;
+  }
+  .fv-ProfilePageTransaction2 .fv-ProfilePageReservationRightCalendar .DatePicker__calendarContainer.-top {
+    z-index: 100 !important;
+    position: absolute !important;
+    margin-right: 80px !important;
+    padding-right: 80px !important;
+  }
+  .fv-ProfilePageReservation.fv-ProfilePageReservation2.fv-ProfilePageTransaction.fv-ProfilePageTransaction2  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageTransaction2HeaderForMobile .col-md-3 {
+    margin-top: 2%;
+    padding-right: 28px;
+    padding-left: 1px;
+    margin-right: 6%;
+    text-align: center;
+
+    margin-top: 2%;
+    padding-right: 26px;
+    padding-left: 0px;
+    margin-right: 0%;
+    text-align: center;
+  }
+  .fv-ProfilePageReservation.fv-ProfilePageReservation2.fv-ProfilePageTransaction.fv-ProfilePageTransaction2  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationRightCalendar input{
+    width: 62vw;
+    padding-right: 9%;
+    margin-right: 6%;
+  }
+
+
+}
+@media (max-width: 414px) {
+  .fv-ProfilePageTransaction2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    padding-right: 1%;
+    margin-right: -1%;
+    margin-left: 0%;
+    padding-bottom: 60%;
+  }
+
+}
+@media (max-width: 411px) {
+  .fv-ProfilePageTransaction2 .fv-ProfilePageReservationRightCalendar .DatePicker__calendarContainer.-top {
+    z-index: 100 !important;
+    position: absolute !important;
+    margin-right: 40px !important;
+    padding-right: 40px !important;
+  }
+}
+@media (max-width: 375px) {
+  .fv-ProfilePageTransaction2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+     padding-bottom: 70%;
+    width: 105%;
+  }
+}
+@media (max-width: 360px) {
+  .fv-ProfilePageTransaction2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    // padding-bottom: 70%;
+  }
+}
+@media (max-width: 320px) {
+  .fv-ProfilePageTransaction2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    padding-bottom: 80%;
+  }
+  .fv-DisplayPageRotePathMobile p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 280px) {
+  .fv-ProfilePageTransaction2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    padding-bottom: 93%;
+  }
+  .fv-ProfilePageTransaction2 .fv-footerMenuMobileTitle {
+    // margin-top: 145%;
+  }
+  .fv-DisplayPageRotePathMobile p {
+    font-size: 12px;
+    margin-top: 2.2%;
+  }
+}

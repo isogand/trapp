@@ -1,0 +1,2485 @@
+
+.efv-svgPagination.fv-displayPageImagePaginationMobil .slider_pagination {
+    display: none;
+}
+
+.fv-footerDisplayPageBody .col-md-2 {
+    flex: 0 0 13.666667%;
+    max-width: 18.666667%;
+    text-align: center;
+    margin-top: auto;
+    padding-right: 0%;
+    margin-bottom: auto;
+}
+
+.fv-DisplayPageSearchIcon i {
+    padding-bottom: 4px;
+    margin: 0;
+    margin-bottom: 3px;
+    margin-right: 23px;
+}
+
+.fv-DisplayPage .fv-footerDisplayPageBody button, .fv-DisplayPage .fv-footerDisplayPageBody input {
+    overflow: visible;
+    width: 324px;
+    border: 1px solid #E5E5E5;
+    color: darkgray;
+    height: 43px;
+}
+
+.fv-DisplayPageSearchIcon i {
+    width: 20px;
+    color: darkgray;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.fv-footerDisplayPageBody .fv-DisplayPageSearchName {
+    padding-top: 6px;
+}
+
+.fv-DisplayPageSearchIcon [searchBbox] {
+    border: 2px solid green;
+}
+
+.fv-DisplayPageTitle {
+    direction: rtl;
+}
+
+.fv-DisplayPageTitle .fv-DisplayPageTitleTopic .col-md-2 {
+    text-align: initial;
+    color: #3EC886;
+    font-size: 25px;
+    flex: 0 0 26.666667%;
+    max-width: 25.666667%;
+}
+
+.fv-DisplayPageTitle .col-md-2 {
+    text-align: initial;
+}
+
+.fv-DisplayPageTitle .fv-DisplayPageTitleShare.col-md-2 {
+    text-align: end;
+}
+
+.fv-aboutUsThirdImageRight {
+    width: 100%;;
+    height: 489px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.fv-aboutUsThirdImageLeftFirst {
+    width: 100%;
+    height: 266px;
+    border-top-left-radius: 15px;
+}
+
+.fv-aboutUsThirdImageLeftSecond {
+    width: 100%;
+    height: 207px;
+    margin-top: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.fv-DisplayPageDisplayMoreImage {
+    color: #66D448;
+    margin-top: 1%;
+}
+
+.fv-DisplayPageMenu.row, .fv-DisplayPageDetails.row {
+    direction: rtl;
+}
+
+.fv-DisplayPageMenu.row .col-md-2 {
+    flex: 0 0 16.666667%;
+    max-width: 11.666667%;
+}
+
+.fv-DisplayPageMenu.row .slider_pagination_btn {
+    background-color: #3EC886;
+    margin-left: 45%;
+}
+
+.fv-DisplayPageMenu.row .slider_pagination_btn_Unselected.slider_pagination_btn {
+    background-color: white;
+    margin-left: 35%;
+}
+
+.fv-DisplayPageDetailsLeftBody {
+    width: 50%;
+    border: 1px solid #88888817;
+    border-radius: 15px;
+    box-shadow: 1px 1px 11px #88888830;
+}
+
+.fv-DisplayPageDetailsLeftBodyDate input {
+    width: 46%;
+}
+
+.fv-DisplayPageDetailsLeftBodyDate.row {
+    margin-right: 0px;
+}
+
+.fv-DisplayPageDetails .fv-DisplayPageDetailsLeftBody {
+    padding-right: 30px;
+    height: 250%;
+}
+
+.fv-DisplayPageDetailsLeftBodyDateOnText {
+    border: 1px solid gray;
+    border-bottom: none;
+    border-left: none;
+    border-top-right-radius: 15px;
+    padding-top: 2%;
+    padding-right: 3%;
+}
+
+.fv-DisplayPageDetailsLeftBodyDateOutText {
+    border: 1px solid gray;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    padding-top: 2%;
+    padding-right: 3%;
+}
+
+.fv-DisplayPageDetailsLeftBodyDateOnInput {
+    /* border: 1px solid gray; */
+    border-top: none;
+    border-left: none;
+    font-size: 10px;
+}
+
+.fv-DisplayPageDetailsLeftBodyDateOutInput {
+    border: 1px solid gray;
+    border-top: none;
+    font-size: 10px;
+    padding-bottom: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+}
+
+.fv-DisplayPageDetailsLeftBodyDate .fv-DisplayPageDetailsLeftBodyDateOnInput {
+    width: 50%;
+    padding-bottom: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+}
+
+.fv-DisplayPageDetailsLeftSelectedDate {
+    width: 107.5%
+}
+
+.fv-DisplayPageDetailsLeftTextDate {
+    width: 99%;
+    z-index: 1;
+}
+
+.fv-DisplayPageDetailsLeftTextDate .fv-DisplayPageDetailsLeftBodyDateOutInput {
+    width: 50%
+}
+
+.fv-DisplayPageDetailsLeftBodyCapacityText input, .fv-DisplayPageDetailsLeftBodyCapacityOption select {
+    width: 95%;
+}
+
+.fv-DisplayPageDetailsLeftBodyCapacityText input {
+    border: 1px solid gray;
+    border-bottom: none;
+    padding-top: 2%;
+    padding-right: 3%;
+}
+
+.fv-DisplayPageDetailsLeftBodyCapacityOption select {
+    margin-bottom: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 11px;
+    padding-right: 10px;
+    background: white;
+    outline: 0px;
+
+    padding: 5px;
+    height: 33px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat left #fff;
+    -webkit-appearance: none;
+    background-position-x: 20px;
+    background-position-y: -3px;
+    padding-right: 5%;
+
+
+}
+
+
+.fv-DisplayPageDetailsLeftButton input {
+    width: 103%;
+    margin-bottom: 5%;
+    background-color: #15BE29;
+    border: none;
+    border-radius: 15px;
+    line-height: 266%;
+    color: white;
+}
+
+.fv-DisplayPageDetailsLeftButton .col {
+    margin-right: -3.9%
+}
+
+.fv-DisplayPageDetails .fv-DisplayPageDetailsRightBody.col-md-8 {
+    text-align: initial;
+    margin-top: 4%;
+}
+
+.fv-DisplayPageDetailsRightBody img {
+    width: 64px;
+    height: 64px;
+    border-radius: 40px;
+}
+
+.fv-DisplayPageDetailsCode .col-md-10 {
+    margin-right: -6.7%;
+}
+
+.fv-DisplayPageDetailsRightHomeImage {
+    margin-top: 4%;
+}
+
+.fv-DisplayPageDetailsPersonInformation {
+    margin-right: -5%;
+}
+
+.fv-DisplayPageDetailsRightParagraph {
+    width: 80%;
+}
+
+.fv-DisplayPageDetailsRightStayInHome .col {
+    max-width: 100%;
+    padding-right: 0;
+}
+
+.fv-DisplayPageDetailsRightBody h4 {
+    font-size: 21px;
+}
+
+.fv-DisplayPageDetailsRightBody h5 {
+    font-size: 18px;
+}
+
+.fv-DisplayPageDetailsCode p {
+    /* font-size: 18px; */
+    /* margin-right: 5%; */
+}
+
+.fv-DisplayPageDetailsRightStayInHome {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.fv-DisplayPageDetailsّFacilities .col {
+    padding-right: 0;
+}
+
+.fv-DisplayPageDetailsّSpacialFacilities {
+    margin-right: -44%;
+}
+
+.fv-DisplayPageDetailsّFacilities .col-md-1 {
+    max-width: 4.333333%;
+    margin-left: 1%;
+    margin-right: -2%;
+}
+
+.fv-DisplayPageDetailsّFacilities .col-md-4 {
+    margin-right: -4%;
+    color: #909090;
+}
+
+.fv-DisplayPageRent.fv-DisplayPageMenu .col-md-1 {
+    max-width: 1.333333%;
+}
+
+.fv-DisplayPageRent.fv-DisplayPageMenu.row .slider_pagination_btn {
+
+    margin-left: 60%
+}
+
+.fv-DisplayPageMenu.fv-DisplayPageRent .col-md-11 {
+    margin-right: -3%;
+    display: inherit;
+}
+
+.fv-DisplayPageDetailsRightBody .fv-DisplayPageMenu.fv-DisplayPageRent h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fv-DisplayPageMenu.fv-DisplayPageRent {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.fv-DisplayPageDetailsّFacilitiesRow {
+    width: 55%;
+    margin-bottom: 20%;
+}
+
+.fv-DisplayPageDetailsRate {
+    margin-right: -56%;
+}
+
+.fv-DisplayPageDetailsRating {
+    font-size: 12px;
+    margin-top: 12%;
+    color: #909090;
+}
+
+.fv-DisplayPageDetailsRateNumberPerson p {
+    margin-right: -123%;
+}
+
+.fv-DisplayPageDetailsScore [type=button]:not(:disabled), .fv-DisplayPageDetailsScore [type=reset]:not(:disabled), .fv-DisplayPageDetailsScore [type=submit]:not(:disabled), .fv-DisplayPageDetailsScore button:not(:disabled) {
+    width: 100%;
+    line-height: 3px;
+}
+
+.fv-DisplayPageDetailsScore .fv-DisplayPageDetailsScoreBody .col-md-3 {
+    flex: 0 0 31%;
+    max-width: 30%;
+    font-size: 15px;
+}
+
+.fv-DisplayPageDetailsScoreRateText {
+    margin-right: 2%;
+}
+
+.fv-DisplayPageDetailsScore .col-md-5 {
+    flex: 0 0 44.666667%;
+    max-width: 48.666667%;
+}
+
+.fv-DisplayPageDetailsScoreButtonSecond {
+    position: absolute;
+    width: 50% !important;
+    background-color: #15BE29;
+}
+
+.fv-DisplayPageDetailsScoreButtonFirst {
+    position: absolute;
+    width: 100% !important;
+    background-color: #919191;
+}
+
+.fv-DisplayPageDetailsScoreBody .fv-DisplayPageDetailsScoreButton {
+    margin-left: -48%;
+}
+
+.fv-DisplayPageDetailsScoreBody .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 2%;
+    margin-right: -2%;
+}
+
+.fv-displayPageComments .fv-displayPageCommentsDate.row {
+    place-content: flex-end;
+    font-size: 14px;
+    color: #3EC886;
+}
+
+.fv-DisplayPageDetailsRightBody .col-md-2 h4 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #3EC886;
+}
+
+.fv-DisplayPageDetailsRightBody .col-md-2 .fa, .fv-DisplayPageDetailsRightBody .col-md-2 .fas {
+    font-weight: 900;
+    padding-right: 0px;
+}
+
+.fv-displayPageComments {
+    border: 1px solid rgba(102, 212, 72, 0.13);
+    background-color: rgba(102, 212, 72, 0.13);
+    border-radius: 15px;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 2%;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.fv-displayPageCommentsTitle {
+    margin-top: -7%;
+    margin-bottom: -2%;
+    color: #3EC886;
+}
+
+.fv-displayPageCommentPerson {
+    margin-top: 4%;
+}
+
+.fv-displayPageTopicMainPage {
+    direction: ltr;
+}
+
+.fv-DisplayPage .fv-displayPageCommentOne {
+    padding-bottom: 3%;
+    width: 94%;
+    padding-right: 3%;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+.fv-DisplayPageCalender {
+    padding-top: 4%;
+    margin-bottom: -1%;
+}
+
+.fv-displayPageCommentTwo {
+    padding-bottom: 3%;
+    width: 90%;
+    padding-right: 3%;
+}
+
+.fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation h6, .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation p {
+    /* margin-right: 5%; */
+}
+
+.fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo h6 {
+    margin-right: 26px;
+}
+
+.fv-DisplayPageDetailsRateTop {
+    margin-right: -16px;
+    font-size: 16px;
+}
+
+.fv-DisplayPageDetailsRatingTop.fv-DisplayPageDetailsRating {
+    font-size: 12px;
+    margin-top: 2%;
+    color: #909090;
+    margin-bottom: -14%;
+    margin-right: -14%;
+}
+
+.fv-DisplayPageDetailsRateTop .fa, .fv-DisplayPageDetailsRateTop .fas, .fv-DisplayPageDetailsRate .fa, .fv-DisplayPageDetailsRate .fas {
+    color: #FEA801;
+}
+
+.fv-footerDisplayPageBody {
+    box-shadow: inset -125em -3em 3em rgb(255 255 255 / 45%), 0 0 24px 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(37 13 13 / 0%);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 0%;
+    padding-right: 5%;
+    padding-left: 3%;
+}
+
+.fv-footerDisplayPageBodyButton input, .fv-footerDisplayPageBodyButton button {
+    /* width: 63%; */
+    /* float: left; */
+    background: #919191;
+    color: white;
+    margin-top: -4%;
+    padding: 13px;
+    border: none;
+    margin-left: 25%;
+    /* padding-bottom: 8%; */
+    text-align: center;
+    border-radius: 15px;
+}
+
+.fv-SearchHomePage .fv-footerDisplayPageBody {
+    margin-left: -9%;
+    margin-right: -9%;
+}
+
+.fv-footerDisplayPageBody .col-md-1 {
+    margin: auto;
+}
+
+.fv-footerDisplayPageBody {
+    box-shadow: none;
+}
+
+.fv-SearchHomePage .fv-footerDisplayPageBody {
+    color: black;
+    /* margin-right: -9%;
+     margin-left: -9%;*/
+}
+
+.fv-DisplayPageLoginImageMobile, .fv-svgPagination.fv-displayPageImagePaginationMobile .col-md-12 {
+    display: none;
+}
+
+.fv-DisplayPageLoginSignMobile, .fv-SearchHomePagePagination.fv-displayPageCommentPagination {
+    display: none;
+}
+
+.fv-DisplayPageRotePathMobile .col, .fv-DisplayPageMenuRowsMobile {
+    display: none;
+}
+
+.fv-DisplayPageDetailsّFacilities .col-md-4 {
+    margin-right: -2%;
+    color: black;
+}
+
+.fv-DisplayPageDetailsRightStayInHome .col-md-4 {
+    margin-right: -2%;
+}
+
+.fv-DisplayPageDetailsّFacilitiesRow .col-md-12 {
+    display: contents;
+}
+
+.fv-DisplayPageDetailsRightingComment .col-md-9 {
+    flex: 0 0 81%;
+    max-width: 85%;
+    margin-right: -2%;
+}
+
+.fv-DisplayPageDetailsScore {
+    font-size: 16px;
+}
+
+.fv-DisplayPageDetailsRightStayInHome .col-md-8 {
+    text-align: center;
+}
+
+.fv-DisplayPageDetailsRightStayInHome h4 {
+    margin-right: 0%;
+}
+
+.fv-displayPageMap {
+    margin-bottom: 4%;
+}
+
+.fv-DisplayPage .fv-DisplayPageDetailsLeftBodyDateOnInput input, .fv-DisplayPage .fv-DisplayPageDetailsLeftBodyDateOutInput input {
+    width: 108%;
+    height: 39px;
+    margin-right: -8%;
+    margin-top: 4%;
+    margin-bottom: -10%;
+    text-align: initial;
+    border: none;
+}
+
+.fv-DisplayPageMenu .col-md-2, .fv-DisplayPageMenu .col-md-1 {
+    transform-origin: center;
+    text-align: center;
+}
+
+.fv-DisplayPageMenu .col-md-2 .slider_pagination_btn_Unselected.slider_pagination_btn {
+    margin-left: 43%;
+}
+
+.fv-DisplayPage .fv-displayActive {
+    display: block;
+    margin-right: 2%;
+}
+
+.fv-DisplayPage .fv-displayDeActive {
+    display: none;
+}
+
+.fv-DisplayPageDetailsّFacilities .col-md-1 button, .fv-DisplayPageDetailsّFacilities .col-md-1 input {
+    width: 20px;
+    height: 25px;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageCalenderForMobile {
+    display: none;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageCalenderForDesktop {
+    display: block;
+}
+
+.fv-SearchHomePage .fv-DisplayPageDetailsّFacilities .fv-facilitiesUnavailable p {
+    color: #cecccc;
+}
+
+.fv-SearchHomePage .fv-DisplayPageDetailsّFacilities .fv-facilitiesAvailable p {
+    color: black;
+}
+
+.fv-DisplayPageDetailsLeftFactor .col-md-6 {
+    flex: 0 0 48%;
+    max-width: 50%;
+    padding: 0;
+}
+
+.fv-DisplayPageDetailsLeftFactorBorderLine .col-md-6 {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.fv-DisplayPageDetailsLeftFactor .fv-DisplayPageDetailsLeftFactorLeft {
+    text-align: initial;
+}
+
+.awssld {
+    direction: initial;
+}
+
+.fv-DisplayPage .fv-displayPageCommentOneInner {
+    border-bottom: 1px solid rgba(145, 145, 145, 0.5);
+    padding-right: 3%;
+    margin-right: -6%;
+    margin-left: 6%;
+}
+
+.fv-DisplayPage .fv-mainProduct.fv-mainMobile {
+    direction: rtl;
+}
+
+.fv-DisplayPage .fv-mainProduct.fv-mainMobile .fv-product {
+    direction: initial;
+}
+
+.fv-aboutUsThirdImageDesktopNone {
+    display: none;
+}
+
+.fv-DisplayPage .fv-hideMenuSearchPageMobile {
+    display: none;
+}
+
+.fv-DisplayPage .fv-DisplayPageTitleTopic {
+    margin-top: 5%;
+}
+
+.-disabled .fv-test {
+    /* background: #2F80ED; */
+    color: #aaaaaa;
+    font-size: 11px;
+}
+
+
+/*    ezafe */
+.fv-DisplayPageTitle .fv-morePicturesDisplayPage {
+    width: 91%;
+    position: absolute;
+    z-index: 4;
+    place-content: center;
+    margin-right: -5%;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+}
+
+.fv-morePicturesDisplayPage .awssld__wrapper {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    height: 117%;
+    width: 114%;
+    margin-left: -5%;
+    margin-top: 2%;
+    margin-bottom: 17%;
+    z-index: -1;
+}
+
+.fv-morePicturesDisplayPage .awssld__bullets button, .fv-morePicturesDisplayPage .awssld__bullets .awssld__bullets--active {
+    width: 20px;
+    height: 20px;
+}
+
+.fv-morePicturesDisplayPage .awssld__controls__arrow-left:after, .awssld__controls__arrow-right:after {
+    background: white;
+}
+
+.fv-morePicturesDisplayPage .awssld__controls__arrow-left:before, .fv-morePicturesDisplayPage .awssld__controls__arrow-right:before, .fv-morePicturesDisplayPage .awssld__controls__arrow-left:after, .fv-morePicturesDisplayPage .awssld__controls__arrow-right:after {
+    background: white;
+}
+
+.fv-morePicturesDisplayPageBody .fa, .fv-morePicturesDisplayPageBody .fas {
+    font-size: 70px;
+    margin-left: -20%;
+    color: black;
+    margin-top: 5%;
+    z-index: 2;
+}
+
+.fv-morePicturesDisplayPageBody {
+    background-color: white;
+}
+
+/*    ezafe */
+
+.fv-DisplayPageDetailsLeftEmptyMobile {
+    font-size: 14px;
+    text-align: initial;
+}
+
+.fv-sliderMorePics .awssld__wrapper {
+    width: 120%;
+    margin-left: 27%;
+}
+
+.fv-sliderMorePics .awssld__bullets {
+    margin-left: 36%;
+}
+
+.fv-sliderMorePics .fa, .fv-sliderMorePics .far, .fv-sliderMorePics .fas {
+    font-size: 42px;
+}
+
+.fv-MadeDisplayNoneForPics {
+    display: none;
+}
+
+.mapboxgl-ctrl-logo {
+    display: none !important;
+}
+
+.container .mapboxgl-map, .container-lg .mapboxgl-map, .container-md .mapboxgl-map, .container-sm .mapboxgl-map, .container-xl .mapboxgl-map {
+    max-width: 660px;
+    max-height: 400px;
+}
+
+.fv-DisplayPageMenu .col-md-2 a, .fv-DisplayPageMenu .col-md-1 a {
+    color: black;
+}
+
+.awssld__controls__arrow-left:after, .awssld__controls__arrow-right:after {
+    background: white !important;
+}
+
+.awssld__controls__arrow-left:before, .awssld__controls__arrow-right:before {
+    background: white !important;
+}
+
+.fv-DisplayPageّMoreFacilities {
+    margin-top: 2%;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageDetailsLeftBodyDateOnInput {
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+}
+
+.fv-SearchHomePage .fv-product .col-md-5 {
+    text-align: end;
+    margin-right: -44px;
+    font-size: 12px;
+}
+
+.fv-SearchHomePage .fv-product .fv-productCapacityBox .col-md-2 {
+    margin-left: 22px;
+    /* padding: 0; */
+    display: flex;
+    font-size: 12px;
+}
+
+.fv-DisplayPage .fv-widthHeaderLoginMenuForDisplayPage {
+    margin-right: -10vw;
+
+}
+
+.fv-widthHeaderLoginMenuForDisplayPage .headerLoginMenu .fv-footerMenuRibbonMobile .col-sm-2 {
+    flex: 0 0 23.666667%;
+    width: 16.666667% !important;
+    margin: auto;
+    margin-right: -19vw;
+    margin-top: 12px;
+}
+
+.fv-widthHeaderLoginMenuForDisplayPage {
+    display: block !important;
+}
+
+.fv-widthHeaderLoginMenuForDisplayPage .fv-footerMenuRibbon {
+    margin-left: 4%;
+    margin-right: 1%;
+    text-align: center;
+    margin-left: -41%;
+    width: 142%;
+    margin-right: 0%;
+}
+
+.fv-DisplayPageDetailsLeftBodyMobileReservation {
+    display: none;
+}
+
+.fv-footerMenu.fv-footerDisplayPage.fv-searchHomePagePathTop.fv-displayPath .fv-DisplayPageRotePathMobile {
+    margin-right: -2%;
+
+}
+
+.fv-DisplayPageDetailsRightStayInHome .col-md-5 {
+    padding: 0;
+}
+
+.fv-DisplayPageDetailsRightStayInHome .col-md-7 {
+    padding: 0;
+}
+
+.fv-mainProduct.fv-mainMobile.fv-displayPageSimillarProducts .fv-product .col-md-5 {
+    text-align: end;
+    margin-right: -36px;
+    font-size: 12px;
+}
+
+
+.fv-DisplayPage .fv-hideLoader {
+    display: none;
+}
+
+.fv-DisplayPageLoaderWaiting .fv-publicWaiting .circular {
+    animation: rotate 2s linear infinite;
+    position: inherit;
+    width: 50%;
+    z-index: 1;
+}
+
+.fv-DisplayPageDetailsLeftSelectedDate input, .fv-DisplayPageDetailsLeftBodyCapacityText input {
+    background: white;
+}
+
+.fv-DisplayPageTitle .fv-DisplayPageTitleTopic h5 {
+    margin-top: 2%;
+    margin-bottom: 7%
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo .fv-hideMenuDisplayMobile {
+    display: none;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .h4Mobile h6 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.fv-SearchHomePage .fv-DisplayPageDetailsّFacilities .fv-facilitiesAvailable .fas, .fv-SearchHomePage .fv-DisplayPageDetailsّFacilities .fv-facilitiesAvailable .fa {
+    color: black;
+}
+
+.fv-SearchHomePage .fv-DisplayPageDetailsّFacilities .fv-facilitiesUnavailable .fa, .fv-SearchHomePage .fv-DisplayPageDetailsّFacilities .fv-facilitiesUnavailable .fas {
+    color: #cecccc;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageDetailsّFacilities.fv-DisplayPageTomanTitle h6 {
+    text-align: end;
+}
+
+.fv-DisplayPageDetailsّFacilities.fv-DisplayPageTomanTitle .col-md-4 {
+
+    margin-top: auto;
+}
+
+.fv-DisplayPageDetailsّFacilities.fv-DisplayPageTomanTitle .col-md-2 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.fv-DisplayPageDetailsّFacilities.fv-DisplayPageTomanTitle .col-md-3 {
+    flex: 0 0 12%;
+    max-width: 25%;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-rentDisplayPage h6 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.fv-DisplayPageMenu.fv-DisplayPageRent .fv-PricesRent {
+    margin-right: 2%;
+    margin-top: 0.5%;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageMenu.fv-DisplayPageRent p {
+    color: #919191;
+}
+
+#Address .fv-addressP {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 19px;
+}
+
+.fv-DisplayPageDetailsRightingComment h6 {
+    text-align: initial;
+    /* margin-top: 4%; */
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-displayPageCommentPerson .fv-usernamePageComment {
+    margin-top: 3%;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-displayPageComments .fv-usernamePageComment {
+    margin-bottom: 1.3rem;
+    margin-top: 2%;
+}
+
+.fv-displayPageCommentOneInner .fv-displayPageCommentPerson .fv-DisplayPageDetailsCode .fv-createAt {
+    margin-top: -1%;
+    margin-right: 1%;
+    color: #919191;
+    margin-bottom: 3%;
+}
+
+.fv-displayPageCommentOneInner .fv-displayPageCommentPerson .fv-DisplayPageDetailsPersonInformation .fv-UserNameComments {
+    margin-top: -1%;
+    margin-right: 1%;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-displayPageCommentPerson .fv-usernamePageComment {
+    margin-top: 3%;
+    margin-right: 1%;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-displayPageCommentOneInner .fv-displayPageComments {
+    margin-right: 0;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-displayPageCommentsDate .fv-createAtAnswer {
+    margin-top: 0%;
+}
+
+.fv-SearchHomePage.fv-DisplayPage.fv-DisplayPageOnly .awssld__bullets button {
+    padding: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    border-radius: 50%;
+    background: var(--control-bullet-color);
+    background: rgba(145, 145, 145, 0.2) !important;
+    text-indent: -9999px;
+    overflow: hidden;
+    border: 1px solid rgba(145, 145, 145, 0.2);
+    cursor: pointer;
+    /* border: none; */
+    transition: transform 0.225s cubic-bezier(0.8, 1.35, 0.75, 1.45), background-color 0.175s ease-out;
+}
+
+
+/*    ***************************** ********************** **************** calendar Picker for Desktop css ************************************************* */
+.fv-SearchHomePage.fv-DisplayPage .DatePicker__calendarContainer .Calendar {
+    width: 300px !important;
+    height: 5.5vw !important;
+    margin-right: 10vw;
+    font-size: 9px !important;
+    /* margin-top: -5%; */
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageDetailsLeftBodyDateOutInput .DatePicker__calendarContainer .Calendar {
+    margin-left: 100px;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .Calendar__day {
+    border: 0.5px solid #D8D8D8;
+    width: 2.9vw;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .DatePicker__calendarContainer .Calendar__day.-rtl {
+    height: 40px;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .DatePicker__calendarContainer .Calendar__weekDays {
+    line-height: 40px;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .DatePicker__calendarContainer .Calendar__section.-shown {
+    margin-top: -5px !important;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .DatePicker__calendarContainer .Calendar__day.-rtl {
+    margin-bottom: 1px;
+}
+
+/*    ***************************** ********************** **************** calendar Picker for Desktop css ************************************************* */
+
+
+@media (max-width: 1200px) {
+    .fv-DisplayPage .fv-footerDisplayPageBody button, .fv-DisplayPage .fv-footerDisplayPageBody input {
+        width: 272px;
+    }
+
+    .fv-displayPageMap img {
+        width: 550px;
+        height: 399px;
+    }
+
+    .fv-DisplayPageDetailsRightingComment .col-md-9 {
+        flex: 0 0 67%;
+        max-width: 81%;
+    }
+
+    .fv-DisplayPageDetailsRightingComment .col-md-2 {
+        flex: 0 0 25.666667%;
+        max-width: 18.666667%;
+    }
+
+    .fv-DisplayPageDetailsScore {
+        font-size: 14px;
+    }
+
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo h5 {
+        margin-right: 25px;
+    }
+
+    .fv-DisplayPageDetailsRateTop {
+        margin-right: -3px;
+        font-size: 16px;
+    }
+
+    .fv-DisplayPageDetailsRatingTop.fv-DisplayPageDetailsRating {
+        font-size: 12px;
+        margin-top: -1%;
+        color: #909090;
+        margin-bottom: -17%;
+        margin-right: -14%;
+    }
+
+    .fv-DisplayPageMenu.row .col-md-2 {
+        flex: 0 0 16.666667%;
+        max-width: 17.666667%;
+    }
+
+    .fv-DisplayPageDetailsLeftTextDate {
+        width: 100%;
+        z-index: 1;
+    }
+
+    .fv-DisplayPageDetailsLeftSelectedDate {
+        width: 108.6%;
+    }
+
+    .fv-DisplayPageDetailsRateNumberPerson p {
+        margin-right: -73%;
+    }
+
+    .fv-DisplayPageDetailsRightingComment .col-md-2 {
+        flex: 0 0 34.666667%;
+        max-width: 25.666667%;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageCalenderForDesktop {
+        display: none;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageCalenderForMobile {
+        display: block;
+    }
+
+    .fv-widthHeaderLoginMenuForDisplayPage .fv-footerMenuRibbon {
+        width: 150%;
+    }
+
+
+    .fv-DisplayPageDetailsLeftFactorLeftMobile {
+        text-align: end;
+    }
+
+    .fv-DisplayPageDetailsّFacilities.fv-DisplayPageTomanTitle .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage.fv-DisplayPageOnly .fv-displayPageSimillarProducts {
+        text-align: start;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageDetailsLeftBodyDateOutInput .DatePicker__calendarContainer .Calendar {
+        margin-left: 30px;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .Calendar__day {
+        width: 3.8vw;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 540px) {
+
+    .fv-widthHeaderLoginMenuForDisplayPage .fv-footerMenuRibbon {
+        width: 133%;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .Calendar__day {
+        width: 5vw;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 760px) {
+    .fv-SearchHomePage.fv-DisplayPage .Calendar {
+        --cl-color-black: #444444;
+        --cl-color-disabled: #d4d4d4;
+        --cl-color-error: #ff2929;
+        font-size: 9.5px;
+        background: #fff;
+        border-radius: 1em;
+        position: relative;
+        -webkit-user-select: none;
+        user-select: none;
+        display: flex;
+        flex-direction: column;
+        width: 43em;
+        z-index: 10;
+        max-width: 90vw;
+        min-height: 36.7em;
+        height: 53em;
+        padding-top: 0%;
+        margin-bottom: 8%;
+        border: 1px solid #d4d4d4;
+    }
+
+    .fv-SearchHomePage .fv-product .col-md-5 {
+        text-align: end;
+        margin-right: -29px;
+        font-size: 11px;
+    }
+
+    .fv-SearchHomePage .fv-product .fv-productPriceBox .col-md-10 {
+        flex: 0 0 131.333333%;
+        max-width: 130.333333%;
+        margin-left: -12%;
+        margin-top: 4%;
+    }
+
+    .fv-SearchHomePage .fv-productRateBox {
+        font-size: 10px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        direction: ltr;
+    }
+
+    .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsScore .fv-DisplayPageDetailsScoreBody .col-md-3 {
+        flex: 0 0 44%;
+        max-width: 31%;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 989px) and (min-width: 768px) {
+    .fv-DisplayPageDetailsLeftEmptyMobile {
+        font-size: 1.5vw;
+    }
+
+    .fv-footerDisplayPageBody .col-md-2 {
+        padding-right: 1%;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo .col-md-10 {
+        flex: 0 0 77.333333%;
+        max-width: 61.333333%;
+    }
+
+    .fv-footerDisplayPageBody .col-md-2 {
+        font-size: 1.5vw;
+    }
+
+    .fv-DisplayPage .fv-footerDisplayPageBody button, .fv-DisplayPage .fv-footerDisplayPageBody input {
+        width: 204px;
+    }
+
+    .fv-footerDisplayPageBody img {
+        /*  width: 103px; */
+        /*  height: 96px; */
+    }
+
+    .fv-DisplayPageTitle .col-md-2 {
+        text-align: initial;
+        font-size: 1.4vw;
+    }
+
+    .fv-DisplayPageDetailsRateTop {
+        margin-right: -5px;
+        font-size: 13px;
+    }
+
+    .fv-DisplayPageDetailsRatingTop.fv-DisplayPageDetailsRating {
+        font-size: 1.2vw;
+        margin-top: 6%;
+        color: #909090;
+        margin-bottom: -21%;
+        margin-right: -14%;
+    }
+
+    .fv-DisplayPageMenu.row .col-md-2 {
+        flex: 0 0 19.666667%;
+        max-width: 17.666667%;
+    }
+
+    .fv-DisplayPageDetails .fv-DisplayPageDetailsLeftBody {
+        padding-right: 10px;
+        height: 262%;
+        padding-left: 3px;
+    }
+
+    .fv-DisplayPageDetailsLeftBody {
+        border: none;
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyDate.row {
+        margin-right: 0px;
+        margin-left: -9%;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo .col-md-10 {
+        flex: 0 0 77.333333%;
+        max-width: 61.333333%;
+    }
+
+    .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation h6, .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation p {
+        margin-right: 11%;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo div {
+        margin-right: 2%;
+    }
+
+    .fv-DisplayPageCalender .col-md-6 {
+        flex: 0 0 63%;
+        max-width: 69%;
+    }
+
+    .calenderBody .week-days {
+        font-size: 1.5vw !important;
+    }
+
+    .calenderBody .container {
+        width: 127% !important;
+    }
+
+    .fv-DisplayPageDetailsّFacilities .col-md-4 {
+        margin-right: 0%;
+        color: #909090;
+    }
+
+    .fv-DisplayPageDetailsScore .col-md-3 {
+        flex: 0 0 34%;
+        max-width: 32%;
+        padding-right: -17px;
+        padding-right: 2px;
+        padding-left: 0px;
+    }
+
+    .fv-DisplayPageDetailsRightingComment .col-md-2 {
+        flex: 0 0 38.666667%;
+        max-width: 26.666667%;
+        padding-left: -46px;
+        margin-left: -56px;
+        /* font-size: 16px; */
+        margin-right: 3%;
+
+    }
+
+    .fv-displayPageMap img {
+        width: 400px;
+        height: 299px;
+    }
+
+    .fv-DisplayPageDetailsRightBody h4 {
+        font-size: 17px;
+    }
+
+    .fv-SearchHomePage .fv-product .col-md-5 {
+        font-size: 9px;
+    }
+
+    .fv-SearchHomePage .fv-product .fv-productCapacityBox .col-md-2 {
+        font-size: 9px;
+    }
+
+    .fv-SearchHomePage .fv-widthHeaderLoginMenuForDisplayPage .fv-footerMenuRibbon .col-md-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+        flex: 0 0 57%;
+        max-width: 67%;
+        z-index: 0;
+        margin-right: 3%;
+        margin-top: 0.5%;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo .col-md-1 {
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+        margin-left: 6%;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo .col-md-2 {
+        flex: 0 0 26.666667%;
+        max-width: 21.666667%;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyDate.row {
+        margin-right: 0px;
+        margin-left: -7%;
+    }
+
+    .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsScore .fv-DisplayPageDetailsScoreBody .col-md-3 {
+        flex: 0 0 44%;
+        max-width: 31%;
+        font-size: 11px;
+    }
+}
+
+
+@media (max-width: 990px) {
+    .fv-DisplayPageTitle .col-md-2 {
+        text-align: initial;
+        font-size: 13px;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo h6 {
+        margin-right: 14px;
+    }
+
+    .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation h6, .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation p {
+        margin-right: -13%;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation {
+        margin-right: 0%;
+    }
+
+    .fv-DisplayPageCalender .col-md-6 {
+        flex: 0 0 76%;
+        max-width: 83%;
+    }
+
+
+    .fv-displayPageCommentPerson .fv-DisplayPageDetailsPersonInformation {
+        margin-right: 5%;
+    }
+
+    .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation h6, .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation p {
+        margin-right: 5%;
+    }
+
+    .fv-DisplayPageMenu.row .col-sm-2 a {
+        color: black;
+    }
+
+
+}
+
+
+@media (max-width: 766px) {
+    .fv-widthHeaderLoginMenuForDisplayPage .headerLoginMenu .fv-footerMenuRibbonMobile .col-sm-2 {
+        flex: 0 0 15.666667%;
+        width: 16.666667% !important;
+        margin: auto;
+        margin-right: -6vw;
+        margin-top: 12px;
+    }
+
+    .fv-DisplayPageDetailsّFacilities .col-sm-6 {
+        padding: 0 !important;
+        font-size: 4vw;
+    }
+
+    .fv-footerDisplayPageBody .col-md-2, .fv-DisplayPageSearchProductImage .fv-aboutUsThirdImageRight, .fv-DisplayPageSearchProductImage .fv-aboutUsThirdImageLeftFirst, .fv-DisplayPageSearchProductImage .fv-aboutUsThirdImageLeftSecond, .fv-DisplayPageMenuRows, .fv-DisplayPageDisplayMoreImage .col, .fv-DisplayPageDetailsRightBody .col-md-2 h4 {
+        display: none;
+    }
+
+    .fv-DisplayPageSearchName .fv-DisplayPageDetailsRate, .fv-DisplayPageDetailsRatingTop.fv-DisplayPageDetailsRating, .fv-DisplayPageSearchName .fv-DisplayPageTitleShare, .fv-DisplayPageDetailsLeftBody {
+        display: none;
+    }
+
+    /* ,.fv-DisplayPageSearchName .fv-DisplayPageLike { display: none;
+    }*/
+    .fv-footerMenu .col-md-6 {
+        padding: 0;
+        margin-top: 4%;
+        /* margin-left: -21%; */
+        /* margin-right: 14%; */
+        margin-right: 3%;
+    }
+
+    .fv-DisplayPageDetailsRate {
+        margin-right: -20px;
+    }
+
+    .fv-DisplayPageDetailsRateNumberPerson p {
+        margin-right: -37px;
+    }
+
+    .fv-DisplayPageDetailsّFacilities .col-md-4 {
+        margin-right: 0%
+    }
+
+    .fv-DisplayPageLoginImageMobile {
+        display: flex;
+    }
+
+    .fv-DisplayPageLoginImageMobile img {
+        width: 50px;
+        height: 50px;
+        margin-top: 52%;
+        border-radius: 15px;
+        margin-right: -96%;
+    }
+
+    .fv-DisplayPageLoginSignMobile {
+        margin-top: 9%;
+        margin-right: -1%;
+        display: flex;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .row {
+        margin-right: 1px;
+        /* margin-left: -10px; */
+    }
+
+    .fv-DisplayPageRotePathMobile {
+        margin-top: 3%;
+        display: flex;
+        padding-right: 0%;
+    }
+
+    .fv-DisplayPageRotePathMobile .col {
+        display: contents;
+        font-size: 15px;
+    }
+
+    .fv-DisplayPageRotePathMobile .fa-chevron-left {
+        margin-top: 2%;
+        margin-right: 2%;
+        margin-left: 2%;
+        font-size: 13px;
+    }
+
+    .fv-DisplayPagePathNow {
+        color: #3EC886;
+    }
+
+    .fv-DisplayPageTitle .col-md-2 {
+        text-align: initial;
+        font-size: 18px;
+        font-weight: 490;
+        margin-right: 4%;
+    }
+
+    .fv-aboutUsThirdImageRight {
+        width: 280px;
+        height: 177px;
+        border-radius: 15px;
+    }
+
+    .fv-footerDisplayPageBody {
+        padding-top: 5%;
+    }
+
+    .fv-DisplayPageTitle {
+        text-align: center;
+    }
+
+    .fv-DisplayPageTitle img {
+        /* margin-left: 0%; */
+    }
+
+    .fv-svgPagination.fv-displayPageImagePaginationMobile .slider_pagination_btn.slider_pagination_btn--sel {
+        background-color: #15BE29;
+    }
+
+    .fv-svgPagination.fv-displayPageImagePaginationMobile .slider_pagination_btn {
+        padding: 5px;
+    }
+
+    .fv-svgPagination.fv-displayPageImagePaginationMobile .col-md-12 {
+        display: flex;
+        place-content: center;
+    }
+
+    .fv-DisplayPageMenu .row .slider_pagination_btn {
+        padding: 4px;
+        margin: 20px;
+        margin-top: 4px;
+    }
+
+    .fv-DisplayPageMenu {
+        margin-top: 27%;
+    }
+
+    .fv-DisplayPageMenu.row .col-sm-2 {
+        margin-right: 5%;
+        font-size: 4.5vw;
+    }
+
+    .fv-DisplayPageMenuRowsMobile {
+        display: block;
+    }
+
+    .fv-svgPagination.fv-displayPageImagePaginationMobile .slider_pagination_btn {
+        padding: 3px;
+        margin: 3px;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo .col-sm-4 {
+        text-align: end;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo .col-sm-5 {
+        text-align: center;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation {
+        margin-right: -17%;
+    }
+
+    .fv-DisplayPageDetailsRightBody h5 {
+        font-size: 22px;
+    }
+
+    .fv-DisplayPageDetails .fv-DisplayPageDetailsRightBody.col-md-8 {
+        margin-top: 4%;
+        padding-right: 0;
+    }
+
+    .fv-DisplayPageDetails .pMobile {
+        font-size: 4vw;
+    }
+
+    .fv-DisplayPageDetails .h4Mobile h4 {
+        font-size: 21px;
+        font-weight: 499;
+    }
+
+    .fv-DisplayPageDetailsRightParagraph {
+        width: 100%;
+    }
+
+    .fv-DisplayPageDetailsRightStayInHome .col-sm-11 {
+        /*   margin-right: -4%; */
+        margin-bottom: 3%;
+    }
+
+    .fv-DisplayPageّMoreFacilities p {
+        color: #3EC886;
+        font-size: 21px;
+        font-weight: 450;
+    }
+
+    .fv-DisplayPageDetailsRightParagraph h5 {
+        font-size: 19px;
+    }
+
+    .fv-DisplayPageDetailsRightParagraph {
+        margin-bottom: -1%;
+    }
+
+    .fv-DisplayPageDetailsّFacilities .col-sm-2 {
+        font-size: 19px;
+        margin-right: -11%;
+        margin-left: 3%;
+    }
+
+    .fv-DisplayPageMenu.fv-DisplayPageRent .row .slider_pagination_btn {
+        padding: 4px;
+        margin: -4px;
+        margin-top: 9px;
+    }
+
+    .fv-DisplayPageMenu.fv-DisplayPageRent .col-md-11 {
+        margin-right: -7%;
+    }
+
+    .calenderBody .week-days {
+        padding: 11px 4px !important;
+        font-size: 2.8vw !important;
+    }
+
+    .calenderBody .container {
+        width: 125% !important;
+    }
+
+    .fv-calenderDisplayNonMobile {
+        display: none;
+    }
+
+    .fv-DisplayPageDetailsّFacilities .col-sm-12 {
+        padding-right: 0%;
+    }
+
+    .fv-DisplayPageDetailsّFacilitiesRow {
+        width: 100%;
+        margin-bottom: 7%;
+    }
+
+    .fv-DisplayPageDetailsRating {
+        font-size: 14px;
+        padding-top: 2px;
+    }
+
+    .fv-DisplayPageDetailsScore .col-sm-12 {
+        flex: 0 0 100.666667%;
+        max-width: 100.666667%;
+    }
+
+    .fv-DisplayPageDetailsScore .col-sm-3 {
+        flex: 0 0 34%;
+        width: 35% !important;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation .col-sm-10 {
+        margin-right: -4%;
+    }
+
+    .fv-DisplayPageDetailsCode p {
+        color: #919191;
+    }
+
+    .fv-displayPageCommentOne {
+        width: 100%;
+    }
+
+    .fv-displayPageCommentTwo {
+        width: 100%;
+    }
+
+    .fv-displayPageCommentsTitle {
+        margin-top: -14%;
+        margin-bottom: 0%;
+    }
+
+    .fv-DisplayPageDetailsّFacilities.fv-DisplayPageTomanTitle .col-md-4 {
+        margin-right: -6%;
+        margin-top: auto;
+        /* margin-bottom: auto; */
+    }
+
+    .fv-DisplayPageDetailsّFacilities.fv-DisplayPageTomanTitle .col-md-2 {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .fv-DisplayPageDetails .fv-SearchHomePagePagination input[type=button] {
+        color: #15BE29;
+        background-color: white;
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 1px;
+        border: 1px solid #15BE29;
+        text-align: start;
+        border-radius: 11px;
+        padding: 1%;
+        padding-left: 4%;
+        padding-right: 4%;
+        font-size: 18px;
+        margin-bottom: 8%;
+    }
+
+    .fv-SearchHomePagePagination.fv-displayPageCommentPagination {
+        display: flex;
+        margin-bottom: 17%;
+    }
+
+    .fv-DisplayPageCalender .col-md-6 {
+        flex: 0 0 91%;
+        max-width: 98%;
+    }
+
+    .fv-displayPageMap img {
+        width: 100%;
+        height: 100%;
+        padding-left: 3%;
+    }
+
+    .fv-DisplayPageDetailsRightStayInHome .col-md-7 {
+        text-align: inherit;
+    }
+
+    .fv-DisplayPageDetailsRightStayInHome h4 {
+        margin-right: 0%;
+    }
+
+    .fv-DisplayPageDetailsScore .fv-DisplayPageDetailsScoreBody .col-md-3 {
+        flex: 0 0 42%;
+        max-width: 35%;
+        font-size: 4.2vw;
+    }
+
+    .efv-svgPagination.fv-displayPageImagePaginationMobil .slider_pagination {
+        display: block;
+    }
+
+    .fv-DisplayPageCalenderForMobile .Calendar {
+        width: 39em;
+        margin-right: -5.5vw;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageCalenderForMobile {
+        display: block;
+    }
+
+    .fv-DisplayPage .fv-displayPageCommentOne {
+        margin-bottom: 5%;
+    }
+
+
+    .fv-DisplayPage .fv-product .row .col-md-2 {
+        margin-left: 10px;
+    }
+
+    .fv-DisplayPage .fv-mainMobile .col-sm-7, .fv-SearchHomePage .fv-mainMobile .col-sm-6 {
+        /* padding-right: 5px; */
+        /* padding-left: 11px; */
+        display: inline-block;
+        /* margin-right: 9vw; */
+        /* margin-left: 9%; */
+        margin-left: 11%;
+    }
+
+    .fv-mainProduct.fv-mainMobile.fv-displayPageSimillarProducts .col-sm-7, fv-mainProduct.fv-mainMobile.fv-displayPageSimillarProducts .col-sm-6 {
+        margin-right: 0
+    }
+
+    .fv-DisplayPage .fv-mobileProduct {
+        width: 116%;
+        direction: ltr;
+    }
+
+    .fv-DisplayPage .fv-product .col-md-5 {
+        margin-left: -57px;
+    }
+
+    .fv-DisplayPage .fv-product .fv-productCapacityBox .fv-numberOfBedBody {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 6px;
+        margin-top: -15%;
+    }
+
+    .fv-DisplayPage .fv-productCapacityBox {
+        margin-top: 0;
+        font-size: 3.5vw;
+    }
+
+    .fv-DisplayPage .fv-product .fv-productPriceBox .col-md-10 {
+        margin-left: -6%;
+        margin-top: 8%;
+    }
+
+    .fv-DisplayPage .fv-productPriceBoxPriceText {
+        /* background-color: #aaaaaa; */
+        float: right;
+        margin-top: -0.5vw;
+        font-size: 14px;
+        margin-right: 11vw;
+    }
+
+    .fv-DisplayPage .fv-displayPageCommentOne {
+        /* border-bottom: 1px solid #909090; */
+    }
+
+    .fv-DisplayPage .fv-displayPageCommentOneInner {
+        border-bottom: 1px solid #909090;
+    }
+
+    .container .mapboxgl-map, .container-lg .mapboxgl-map, .container-md .mapboxgl-map, .container-sm .mapboxgl-map, .container-xl .mapboxgl-map {
+        width: 100% !important;
+        height: 100% !important;
+        margin-right: -1%;
+    }
+
+    .fv-DisplayPageDetailsRightingComment .col-md-2 {
+        padding-left: 0;
+        text-align: end;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo .col-sm-6 {
+        width: 64% !important;
+    }
+
+    .fv-DisplayPageRotePathMobile a {
+        color: black;
+    }
+
+    .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo h5, .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo p {
+        font-size: 4vw;
+    }
+
+    .fv-DisplayPageTitle .fv-DisplayPageTitleTopic .col-md-2 {
+        text-align: initial;
+        color: #3EC886;
+        font-size: 25px;
+        flex: 0 0 71.666667%;
+        max-width: 73.666667%;
+    }
+
+    .fv-mainProduct.fv-mainMobile.fv-displayPageSimillarProducts .fv-productCapacityBox {
+        margin-top: 0;
+        font-size: 3vw;
+        display: contents;
+    }
+
+    .fv-mainProduct.fv-mainMobile.fv-displayPageSimillarProducts .fv-product .fv-productCapacityBox .fv-numberOfBedBody {
+        /* display: flex; */
+        /* justify-content: flex-end; */
+        margin-left: -3px;
+        margin-top: -15%;
+    }
+
+    .fv-mainProduct.fv-mainMobile.fv-displayPageSimillarProducts .fv-product .fv-productCapacityBox .fv-numberOfBedBody {
+        /* display: flex; */
+        /* justify-content: flex-end; */
+        margin-left: 27px;
+        margin-top: 3%;
+        font-size: 3vw;
+        display: contents;
+    }
+
+    .fv-mainProduct.fv-mainMobile.fv-displayPageSimillarProducts .fv-product .col-md-5 {
+        text-align: end;
+        margin-right: -2vw;
+        font-size: 3vw;
+        margin-left: -12vw;
+    }
+
+    .fv-mainProduct.fv-mainMobile.fv-displayPageSimillarProducts .fv-productCapacityBox p {
+        font-size: 3vw;
+    }
+
+
+    .fv-mainProduct.fv-mainMobile.fv-displayPageSimillarProducts .fv-productLocation .col-md-9 {
+        border-bottom: 1px solid #400a0a;
+        text-align: end;
+        padding-right: 0;
+        margin: auto;
+        font-size: 15px;
+        direction: ltr;
+        padding-bottom: 6%;
+        margin-bottom: 4%;
+    }
+
+    .fv-mainProduct.fv-mainMobile.fv-displayPageSimillarProducts .fv-product .fv-productCapacityBox .fv-numberOfBedBody .fa, .fv-mainProduct.fv-mainMobile.fv-displayPageSimillarProducts .fv-product .fv-productCapacityBox .fv-numberOfBedBody .fas {
+        margin-top: 0.5%;
+    }
+
+    .fv-footerMenu.fv-footerDisplayPage.fv-searchHomePagePathTop.fv-displayPath .fv-DisplayPageRotePathMobile {
+        margin-right: -2%;
+        margin-top: 8%;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyMobileReservation .fv-DisplayPageDetailsLeftFactor .col-md-6 {
+        flex: 0 0 45%;
+        max-width: 50%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyMobileReservation .fv-DisplayPageDetailsLeftFactor .fv-DisplayPageDetailsLeftFactorLeft {
+        text-align: inherit;
+        margin-right: 4%;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .h4Mobile h6 {
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    .fv-DisplayPageDetailsّFacilities.fv-DisplayPageTomanTitle .col-md-3 {
+        flex: 0 0 39%;
+        max-width: 25%;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-rentDisplayPage h6 {
+        margin-top: 2%;
+        margin-bottom: 3%;
+        margin-right: 1%;
+    }
+
+
+    /*    ***************************** ********************** **************** calendar for mobile css ************************************************* */
+    .fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageDetailsLeftBodyMobileReservation .DatePicker__calendarContainer .Calendar {
+        width: 70vw !important;
+        height: 5vw !important;
+        margin-right: 10vw;
+        font-size: 2vw !important;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .Calendar__day {
+        width: 9vw;
+    }
+
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageDetailsLeftBodyMobileReservation .DatePicker__calendarContainer .Calendar__day.-rtl {
+        height: 9vw;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageDetailsLeftBodyMobileReservation .DatePicker__calendarContainer .Calendar__weekDays {
+        line-height: 5vw;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageDetailsLeftBodyMobileReservation .DatePicker__calendarContainer .Calendar__section.-shown {
+        margin-top: -1vw !important;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageDetailsLeftBodyMobileReservation .DatePicker__calendarContainer .Calendar__day.-rtl {
+        margin-bottom: 0.3vw;
+    }
+
+    /*    ***************************** ********************** **************** calendar for mobile css ************************************************* */
+    .fv-SearchHomePage.fv-DisplayPage.fv-DisplayPageOnly .row {
+        margin-right: -3px;
+        margin-left: -10px;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageMenu.fv-DisplayPageRent p {
+        font-size: 3.5vw;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageMenu.fv-DisplayPageRent h6 {
+        font-size: 3.5vw;
+        align-self: center;
+        margin-top: -2%;
+    }
+
+    .fv-DisplayPageMenu .col-md-2, .fv-DisplayPageMenu .col-md-1 {
+        margin-top: -1%;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-DisplayPageDetailsScore {
+        font-size: 4vw;
+    }
+
+    .fv-displayPageCommentOneInner .fv-displayPageCommentPerson .fv-DisplayPageDetailsCode .fv-createAt {
+        margin-top: -1%;
+        margin-right: -6vw;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-displayPageCommentPerson .fv-usernamePageComment {
+        margin-top: 13%;
+    }
+
+
+    .fv-DisplayPage .fv-displayPageCommentOneInner {
+        border-bottom: 1px solid #909090;
+        margin-left: -7%;
+        margin-right: -3%;
+    }
+
+    .fv-displayPageCommentOneInner .fv-displayPageCommentPerson .fv-DisplayPageDetailsCode .fv-createAt {
+        margin-top: -1%;
+        margin-right: -9vw;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-displayPageCommentPerson .fv-usernamePageComment {
+        margin-top: 8%;
+        margin-right: -9vw;
+    }
+
+    .fv-displayPageCommentPerson .fv-DisplayPageDetailsPersonInformation {
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .fv-displayPageCommentsDate .fv-createAtAnswer {
+        margin-top: 2%;
+        font-weight: 600;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 766px) and (min-width: 478px) {
+    .fv-DisplayPageMenu .row .slider_pagination_btn {
+        padding: 4px;
+        margin: 30px;
+        margin-top: 6px;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation {
+        margin-right: -12%;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo .col-sm-4 {
+        text-align: end;
+        margin-right: 1%;
+    }
+
+    .fv-DisplayPageDetailsRate {
+        margin-right: -30px;
+    }
+
+    .fv-displayPageCommentPerson .fv-DisplayPageDetailsPersonInformation {
+        margin-right: 1%;
+    }
+
+    .fv-displayPageCommentsTitle {
+        padding-top: 4%;
+    }
+
+    .fv-DisplayPageTitle img {
+        /* margin-left: 0%; */
+    }
+
+    .fv-aboutUsThirdImageRight {
+        width: 428px;
+        height: 259px;
+        border-radius: 15px;
+    }
+
+    .fv-SearchHomePage .fv-product .fv-productCapacityBox .fv-maximumNumber, .fv-SearchHomePage .fv-product .fv-productCapacityBox .fv-capacityBody {
+        margin-top: 0%;
+        font-size: 3vw;
+    }
+
+    .fv-DisplayPage .fv-product .fv-productCapacityBox .fv-numberOfBedBody {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 6px;
+        margin-top: -11%;
+        font-size: 2vw;
+    }
+
+    .fv-DisplayPage .fv-product .fv-productPriceBox .col-md-10 {
+        margin-left: -6%;
+        margin-top: 8%;
+        font-size: 3.5vw;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo .col-sm-5 {
+        text-align: center;
+        margin-right: 5%;
+    }
+
+    .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo h5, .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo p {
+        font-size: 2vw;
+    }
+
+
+    .fv-DisplayPageDetailsLeftBodyMobileReservation {
+        text-align: center;
+        margin-top: 26%;
+        direction: rtl;
+        display: block;
+        box-shadow: 1px 1px 11px #88888830;
+        margin-top: 18%;
+        margin-bottom: 15%;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyMobileReservation .fv-DisplayPageDetailsLeftTextDate {
+        width: 94.7%;
+        z-index: 1;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyMobileReservation .fv-DisplayPageDetailsLeftBodyCapacityText input, .fv-DisplayPageDetailsLeftBodyMobileReservation .fv-DisplayPageDetailsLeftBodyCapacityOption select {
+        width: 95%;
+        margin-right: -1%;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyMobileReservation .fv-DisplayPageTitle {
+        text-align: end;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyCapacityText input, .fv-DisplayPageDetailsLeftBodyCapacityOption select {
+        width: 96%;
+        margin-right: -1%;
+    }
+
+    .fv-footerDisplayPageBody .fv-DisplayPageSearchName {
+        padding-top: 6px;
+        margin-left: 4%;
+    }
+
+    .fv-widthHeaderLoginMenuForDisplayPage .headerLoginMenu .fv-footerMenuRibbonMobile .col-sm-2 {
+        flex: 0 0 15.666667%;
+        width: 16.666667% !important;
+        margin: auto;
+        margin-right: -6vw;
+        margin-top: 12px;
+        flex: 0 0 7.666667%;
+        width: 22.666667% !important;
+        /* margin: inherit; */
+        margin-right: 9vw;
+        margin-top: 12px;
+        margin-left: -13%;
+    }
+}
+
+@media (max-width: 478px) {
+    .fv-footerDisplayPageBody .fv-DisplayPageSearchName {
+        padding-top: 6px;
+        margin-left: 4%;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyCapacityText input, .fv-DisplayPageDetailsLeftBodyCapacityOption select {
+        width: 96%;
+        margin-right: -1%;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyMobileReservation .fv-DisplayPageDetailsLeftTextDate {
+        width: 95.5%;
+        z-index: 1;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyMobileReservation {
+        direction: rtl;
+        display: block;
+        box-shadow: 1px 1px 11px #88888830;
+        margin-top: 7%;
+        margin-bottom: 15%;
+    }
+
+    .fv-footerDisplayPageBody .fv-test {
+        /* background: #2F80ED; */
+        color: #15BE29;
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 375px) {
+    .fv-DisplayPageDetailsLeftBodyMobileReservation .fv-DisplayPageDetailsLeftTextDate {
+        width: 96%;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 360px) {
+    .fv-DisplayPageMenu .row .slider_pagination_btn {
+        padding: 4px;
+        margin: 15px;
+        margin-top: 4px;
+    }
+
+    .fv-DisplayPageCalenderForMobile .Calendar {
+        margin-right: -7vw;
+    }
+
+
+    .fv-SearchHomePage .fv-productPriceBoxPriceText {
+        /* background-color: #aaaaaa; */
+        float: right;
+        margin-top: -2vw;
+        font-size: 14px;
+        margin-right: 6vw;
+    }
+
+    .fv-SearchHomePage .fv-productCapacityBox {
+        margin-top: 0;
+        font-size: 3vw;
+    }
+
+    .fv-displayPageCommentPerson .col-sm-10 {
+        flex: 0 0 128.333333%;
+        width: 98.333333% !important;
+    }
+
+    .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation h6, .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation p {
+        margin-right: 6%;
+    }
+
+    .fv-DisplayPage .fv-displayPageCommentOneInner {
+        border-bottom: 1px solid #909090;
+        padding-right: 4%;
+        margin-right: -5%;
+        margin-left: 0%;
+    }
+
+    .fv-DisplayPageCalenderForMobile .Calendar {
+        margin-right: -10vw;
+    }
+
+    .fv-DisplayPageDetailsRateNumberPerson p {
+        margin-right: -7px;
+    }
+
+    .fv-DisplayPageCalenderForMobile .Calendar {
+        margin-right: -10vw;
+    }
+
+    .container .mapboxgl-map, .container-lg .mapboxgl-map, .container-md .mapboxgl-map, .container-sm .mapboxgl-map, .container-xl .mapboxgl-map {
+        width: 251px !important;
+        height: 208px !important;
+    }
+
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo .col-sm-6 {
+        width: 64% !important;
+        padding-right: 18%;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo .col-sm-4 {
+        text-align: end;
+        margin-right: 16%;
+        margin-left: -15%;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo .col-sm-5 {
+        text-align: center;
+        margin-right: 10%;
+    }
+
+    .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation h6, .fv-DisplayPageDetailsRightBody .fv-DisplayPageDetailsPersonInformation p {
+        font-size: 5vw;
+    }
+
+    .fv-DisplayPageDetailsCode .col-sm-5 {
+        flex: 0 0 52.666667%;
+        max-width: 52.666667% !important;
+    }
+
+    .fv-footerMenu .col-md-6 {
+        margin-right: 12%;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyMobileReservation .fv-DisplayPageDetailsLeftTextDate {
+        width: 96%;
+        z-index: 1;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyCapacityText input {
+        border: 1px solid gray;
+        border-bottom: none;
+        padding-right: 3%;
+    }
+
+    .fv-DisplayPage .fv-product .row .col-md-2 {
+        margin-left: 8px;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 320px) {
+    .fv-DisplayPageCalenderForMobile .Calendar {
+        margin-right: -12vw;
+    }
+
+    .fv-DisplayPage .fv-product .fv-productCapacityBox .fv-numberOfBedBody {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 6px;
+        margin-top: -19%;
+    }
+
+    .fv-widthHeaderLoginMenuForDisplayPage .headerLoginMenu .fv-footerMenuRibbonMobile .col-sm-2 {
+        flex: 0 0 27.666667%;
+        width: 16.666667% !important;
+        margin: auto;
+        margin-right: -23vw;
+        margin-top: 12px;
+    }
+
+    .fv-widthHeaderLoginMenuForDisplayPage .fv-footerMenuRibbonMobile .col-sm-8 {
+        flex: 0 0 58.333333%;
+        width: 66.666667% !important;
+        text-align: initial;
+        margin-right: 1vw;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyMobileReservation .fv-DisplayPageDetailsLeftTextDate {
+        width: 96.5%;
+        z-index: 1;
+    }
+
+    .fv-DisplayPageDetailsLeftSelectedDate {
+        width: 105%;
+    }
+
+    .Calendar__day.-rtl .fv-test {
+        /* background: #2F80ED; */
+        color: #15BE29;
+        font-size: 9px;
+    }
+
+    .fv-footerMenu.fv-footerDisplayPage.fv-searchHomePagePathTop .fv-DisplayPageRotePathMobile p {
+        font-size: 11px;
+    }
+
+    .fv-DisplayPage .fv-product .col-md-5 {
+        margin-left: -54px;
+        font-size: 2.5vw;
+    }
+
+    .fv-DisplayPage .fv-product .row .col-md-2 {
+        margin-left: 8px;
+        margin-right: 5%;
+        font-size: 3vw;
+    }
+
+    .fv-DisplayPage .fv-product .fv-productCapacityBox .fv-numberOfBedBody {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 6px;
+        margin-top: -16%;
+    }
+
+    .fv-widthHeaderLoginMenuForDisplayPage .headerLoginMenu .fv-footerMenuRibbonMobile .col-sm-2 {
+        flex: 0 0 23.666667%;
+        width: 16.666667% !important;
+        margin: auto;
+        margin-right: -13vw;
+        margin-top: 12px;
+    }
+
+    .fv-DisplayPageDetailsPersonInformation.fv-DisplayPageDetailsPersonInfo .col-sm-6 {
+        width: 65% !important;
+        padding-right: 15%;
+    }
+
+    .fv-widthHeaderLoginMenuForDisplayPage .fv-footerMenuRibbonMobile .col-sm-8 {
+        flex: 0 0 58.333333%;
+        width: 66.666667% !important;
+        text-align: initial;
+        margin-right: -4vw;
+    }
+}
+
+@media (max-width: 280px) {
+    .fv-DisplayPageLoginSignMobile {
+        margin-top: 9%;
+        margin-right: 6%;
+        display: flex;
+    }
+
+    .fv-footerMenu .col-md-6 {
+        padding: 0;
+        margin-top: 2%;
+        /* margin-left: -21%; */
+        margin-right: 2%;
+    }
+
+    .fv-aboutUsThirdImageRight {
+        width: 226px;
+    }
+
+    .fv-aboutUsThirdImageRight {
+        width: 226px;
+    }
+
+    .fv-DisplayPageDetailsRightBody h5 {
+        font-size: 16px;
+    }
+
+    .fv-DisplayPageDetailsRightBody img {
+        width: 45px;
+        height: 45px;
+        /*margin-top: 98%;*/
+        border-radius: 62px;
+    }
+
+    .fv-DisplayPageDetailsّFacilities .col {
+        font-size: 4.8vw;
+    }
+
+    .fv-DisplayPageDetailsّFacilities .col-sm-2 {
+        font-size: 19px;
+        margin-right: -14%;
+        margin-left: 12%;
+    }
+
+    .fv-DisplayPageDetailsّFacilities.fv-DisplayPageTomanTitle .col-md-4 {
+        margin-right: 10%;
+    }
+
+    .fv-DisplayPageDetailsRateNumberPerson p {
+        margin-right: -27px;
+    }
+
+    .fv-DisplayPageDetailsScore .col-sm-3 {
+        flex: 0 0 35%;
+        width: 30% !important;
+        font-size: 15px;
+    }
+
+    .fv-DisplayPageRotePathMobile .fa-chevron-left {
+        margin-top: 4%;
+    }
+
+    .fv-DisplayPageDetailsّFacilities.fv-DisplayPageTomanTitle .col-md-4 {
+        margin-right: 3%;
+    }
+
+    .calenderBody .week-days {
+        padding: 17px 0px !important;
+        font-size: 3.5vw !important;
+    }
+
+    .calenderBody .container {
+        width: 141% !important;
+    }
+
+    .calenderBody .container {
+        align-items: center;
+        display: flex;
+        height: 110%;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 610px;
+        width: 109%;
+        place-content: end;
+        margin-right: -24%;
+    }
+
+    .fv-displayPageMap img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+
+    .fv-DisplayPage .fv-product .fv-productCapacityBox .fv-numberOfBedBody {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 6px;
+        margin-top: -23%;
+    }
+
+    .fv-SearchHomePage .fv-product .fv-productCapacityBox .fv-maximumNumber, .fv-SearchHomePage .fv-product .fv-productCapacityBox .fv-capacityBody {
+        margin-top: 0%;
+        font-size: 3vw;
+    }
+
+    .fv-DisplayPage .fv-mobileProduct {
+        width: 126%;
+        direction: ltr;
+    }
+
+    .fv-SearchHomePage.fv-DisplayPage .row {
+        font-size: 4vw;
+        margin-right: -3px;
+        margin-left: -10px;
+    }
+
+    .fv-DisplayPage .fv-product .fv-productCapacityBox .fv-numberOfBedBody {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 6px;
+        margin-top: -17%;
+        font-size: 3vw;
+    }
+
+    .fv-widthHeaderLoginMenuForDisplayPage .headerLoginMenu .fv-footerMenuRibbonMobile .col-sm-2 {
+        flex: 0 0 32.666667%;
+        width: 16.666667% !important;
+        margin: auto;
+        margin-right: -29vw;
+        margin-top: 12px;
+    }
+
+    .fv-widthHeaderLoginMenuForDisplayPage .fv-footerMenuRibbonMobile .col-sm-8 {
+        flex: 0 0 58.333333%;
+        width: 66.666667% !important;
+        text-align: initial;
+        margin-right: -2vw;
+    }
+
+    .fv-DisplayPageDetailsLeftBodyMobileReservation .fv-DisplayPageDetailsLeftTextDate {
+        width: 96.5%;
+        z-index: 1;
+    }
+
+    .fv-DisplayPageDetailsLeftSelectedDate {
+        width: 104.6%;
+    }
+
+}
+
+@media (max-width: 1200px) and (min-width: 1114px) {
+    .fv-DisplayPageDetailsScoreBody .col-md-3 {
+        flex: 0 0 28%;
+        max-width: 30%;
+    }
+}

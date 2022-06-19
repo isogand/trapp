@@ -1,0 +1,56 @@
+.fv-ProfilePageReservation{
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageUserSetInfoButton {
+    margin-top: 0%;
+  }
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo {
+    border: none;
+  }
+  .fv-ProfilePageReservationImage{
+    text-align: center;
+    margin-top: 10%;
+    img{
+      width: 35%;
+    }
+  }
+
+}
+.fv-ProfilePageFacilitiesMobile .fv-chevronHide{
+  display: none;
+}
+.fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-reservationActive , .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-transaction ,.fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-AccomoddationActive , .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-RequestedReservationActive , .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-myCalenderActive , .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-updateProfileActive , .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-gustCommentsActive , .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-walletActive{
+  font-size: 20PX;
+  color: black;
+}
+
+.fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoDetailsBody .fv-ProfilePageUserInfoDetailsBodyColumn .fv-myFavoritesActive{
+  font-size: 20PX;
+  color: black;
+}
+
+@media (max-width: 763px) {
+  .fv-ProfilePageReservation{
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoBody{
+      display: none;
+    }
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo {
+      margin-top: 0%;
+    }
+    .fv-ProfilePageReservationImage img {
+      width: 100%;
+    }
+
+     .fv-ProfilePageReservationImage {
+      text-align: center;
+      margin-top: 31%;
+    }
+  }
+  .fv-ProfilePage .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageUserSetInfoButton input {
+    width: 50%;
+  }
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageUserSetInfoButton {
+    margin-top: 0%;
+    padding: 0;
+  }
+}

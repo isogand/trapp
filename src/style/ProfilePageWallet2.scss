@@ -1,0 +1,97 @@
+.fv-ProfilePageWallet2 {
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageWallet2TextArea input {
+    height: 165px;
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageUserSetInfoButton {
+    margin-top: 13%;
+  }
+
+  .fv-ProfilePageWallet2TextArea textarea {
+    overflow: auto;
+    resize: vertical;
+    width: 50%;
+    height: 245%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    color: #919191;
+    border-radius: 15px;
+  }
+
+  .fv-waitingButtonWalletPage .fv-publicWaiting, .fv-waitingButtonWalletPage #ballsWaveG {
+    float: left;
+  }
+
+  .fv-ProfilePageLeftBody .input-group {
+    .input-group-text {
+      border-radius: 15px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+
+    input {
+      border-radius: 15px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+  }
+}
+
+.fv-ProfilePageWallet.fv-ProfilePageWallet2 .fv-DisplayPageDetailsLeftBodyDateOnInput {
+  border: none;
+  margin-bottom: 3%;
+  width: 400px;
+}
+
+.fv-ProfilePageWallet.fv-ProfilePageWallet2 .fv-calendarInProfilePageWallet2 input {
+  width: 400px;
+}
+
+@media (max-width: 991px) and (min-width: 764px) {
+  .fv-ProfilePageWallet.fv-ProfilePageWallet2 .fv-calendarInProfilePageWallet2 input {
+    width: 33vw;
+  }
+}
+
+@media (max-width: 766px) {
+  .fv-ProfilePageWallet2 {
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageUserSetInfoButton input {
+      width: 50%;
+      padding: 0;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo input {
+      width: 100%;
+      color: #919191;
+      padding-right: 7%;
+      margin-right: 0%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageWallet2TextArea input {
+      height: 165px;
+      width: 105%;
+      padding: 1px;
+      margin-right: -10px;
+      padding-right: -22%;
+    }
+
+    .fv-footerMenuMobileTitle {
+      margin-top: 50%;
+    }
+
+    .fv-ProfilePageWallet2TextArea textarea {
+      overflow: auto;
+      resize: vertical;
+      width: 103%;
+      margin-right: -2%;
+      height: 265%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageUserSetInfoButton {
+      margin-top: 50%;
+    }
+  }
+  .fv-ProfilePageWallet.fv-ProfilePageWallet2 .fv-calendarInProfilePageWallet2 input {
+    width: 74vw;
+  }
+}

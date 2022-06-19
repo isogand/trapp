@@ -1,0 +1,94 @@
+.fv-DisplayHeader {
+  .fv-DisplayPageSearchIcon i {
+    padding-bottom: 4px;
+    margin: 0;
+    margin-bottom: 3px;
+    margin-right: -3px;
+  }
+
+  input {
+    border-radius: 7px;
+    color: rgba(78, 78, 78, 0.43);
+  }
+
+  .fv-footerDisplayPageBody {
+    margin-left: -11%;
+    margin-right: -5%;
+    padding-right: 22px;
+    padding-left: 11px;
+    margin-top: -2%;
+  }
+
+  .fv-homeIconDisplayPageBody p {
+    margin-bottom: -2%;
+  }
+}
+
+.fv-ProfilePageReservation.fv-ProfilePageTransaction.fv-ProfilePageTransaction2.fv-ProfilePageWallet.fv-ProfilePageWallet2.fv-addComments .fv-footerDisplayPageBody {
+  margin-left: -13%;
+  margin-right: -3%;
+  padding-right: 12px;
+  padding-left: 49px;
+  margin-top: -2%;
+}
+
+.fv-SearchHomePage.fv-DisplayPage .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo .fv-hideMenuDisplayMobile {
+  display: none;
+}
+
+
+@media (max-width: 763px) {
+  .fv-DisplayHeader {
+
+  }
+
+  .fv-ProfilePageReservation.fv-ProfilePageTransaction.fv-ProfilePageTransaction2.fv-ProfilePageWallet.fv-ProfilePageWallet2.fv-addComments .fv-footerDisplayPageBody {
+    margin-left: -20%;
+    margin-right: -9%;
+    padding-right: 5.5vh;
+    padding-left: 5.5vh;
+  }
+
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo.fv-DisplayHeader .fv-containerOptionMainPageRowTop {
+    max-width: 1140px;
+    z-index: 3;
+    margin-top: -9%;
+    margin-right: -1%;
+  }
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo.fv-DisplayHeader .fv-cascadeOptionMainPageRowTop {
+    padding-bottom: 1%;
+  }
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo.fv-DisplayHeader .fv-ProfilePageUserInfoBody {
+    height: 78px;
+    background: white;
+    position: absolute;
+  }
+
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo.fv-DisplayHeader .col-md-6 {
+    padding: 0;
+    margin-top: -1%;
+    /* margin-left: -21%; */
+    /* margin-right: 14%; */
+    margin-right: 24%;
+  }
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo.fv-DisplayHeader .fv-footerDisplayPageBody {
+    margin-left: -11%;
+    margin-right: -5%;
+    padding-right: 11px;
+    padding-left: 1px;
+    margin-top: -2%;
+    margin-left: -12%;
+    margin-right: -3%;
+  }
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo.fv-DisplayHeader .fv-footerDisplayPageBody .menuMobile img {
+    width: 32vw;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo.fv-DisplayHeader .col-md-6 {
+    margin-right: 25%;
+  }
+}

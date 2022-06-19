@@ -1,0 +1,82 @@
+
+.fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo .fv-ProfilePageUserInfoBody {
+  display: none;
+}
+
+.fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo .fv-footerDisplayPageBody .fv-DisplayPageLoginSignMobile, .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo .fv-footerDisplayPageBody .fv-hideMenu {
+  display: none;
+}
+
+.fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo .fv-footerDisplayPageBody a {
+  color: black;
+}
+
+.fv-containerOptionMainPageRowTop.fv-displayHeaderCascadeDesktop {
+  width: 1198px;
+  margin-right: -61%;
+  margin-top: 12%;
+}
+
+.fv-DisplayPage.fv-profilePageUserInfo.fv-DisplayHeader .fv-containerOptionMainPageRowTop.fv-displayHeaderCascadeDesktop .fv-textInToCascadeOptionMainPage a {
+  color: white;
+}
+
+.fv-containerOptionMainPageRowTop.fv-displayHeaderCascadeDesktop .fv-footerMenu .fv-cascadeOptionMainPageRowTop img {
+  width: 50px;
+  margin-right: 23px;
+  height: 50px;
+  /* margin-bottom: -23px; */
+  border-radius: 15px;
+}
+
+.fv-DisplayPage.fv-profilePageUserInfo.fv-DisplayHeader .fv-containerOptionMainPageRowTop.fv-displayHeaderCascadeDesktop .fv-cascadeOptionMainPageRowTop img {
+  margin-right: 26px;
+  margin-bottom: 0px;
+}
+
+.fv-containerOptionMainPageRowTop.fv-displayHeaderCascadeDesktop .fv-textInToCascadeOptionMainPage {
+  margin: auto;
+  text-align: center;
+  color: white;
+  margin-right: 4%;
+  padding: 0;
+  margin-top: 1%;
+}
+
+@media (max-width: 763px) {
+
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo .fv-footerDisplayPageBody .fv-DisplayPageLoginSignMobile {
+    display: block;
+  }
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo .fv-footerMenu.fv-footerDisplayPage {
+    display: inline;
+  }
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo .fv-footerMenu.fv-footerDisplayPage .fv-DisplayPageRotePathMobile {
+    margin-right: 0%;
+  }
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo .fv-hideMenu {
+    display: none;
+  }
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo .fv-ProfilePageUserInfoBody {
+    display: block;
+    margin-bottom: 7%;
+  }
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo .fv-ProfilePageLeftBody .fv-ProfilePageUserInfoBody {
+    height: 928px;
+    margin-top: 0%;
+    z-index: 62;
+    margin-right: -7%;
+    width: 89vw;
+    margin-left: -4%;
+  }
+
+  .fv-footerMenu.fv-footerDisplayPage.fv-DisplayPage.fv-profilePageUserInfo .fv-ProfilePageLeftBody.fv-gustUsersMenu {
+    .fv-ProfilePageUserInfoDetailsBodyColumn p {
+      font-size: 21px;
+    }
+
+    .fv-ProfilePageUserInfoBody {
+      height: 71px;
+    }
+  }
+}

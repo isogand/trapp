@@ -1,0 +1,77 @@
+.fv-hostStep5Page {
+  .fv-hostStep5PageSelect{
+    background-color: #919191;
+    border-radius: 22px;
+  }
+  .hostStepPage .fv-headerHomeImage .fv-hostStep5PageSelectIcon{
+    i {
+      color: #3EC886;
+      background-color: #C9FFBA;
+    }
+    p {
+      color: black;
+    }
+  }
+
+  .fv-HostStep1PageBody .fv-hostStepPage1Right .fv-hostStep5P{
+    margin-right: -3%;
+  }
+   .fv-hostStepPage1Right .fv-hostStep3InputText input {
+    border-radius: 14px;
+    height: 54px;
+    width: 445px;
+     background-color: white;
+    // border: 1px solid rgba(145, 145, 145, 0.5);
+  }
+  .fv-hostStepPage1Right .fv-hostStep3InputText{
+    .fv-redBorderError{
+      border: 1px solid red ;
+      background: #E88F0A ;
+    }
+  }
+  .fv-hostStepPage2LeftButtonBody {
+    margin-top: 55%;
+  }
+
+}
+.fv-hostStep5Page .fv-HostStep1PageBody .fv-hostStepPage1Right p {
+  font-size: 14px;
+  margin-top: 0%;
+}
+@media (max-width: 1200px) and  (min-width: 765px) {
+  .fv-hostStep3Page.fv-hostStep4Page.fv-hostStep5Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+    margin-left: 71%;
+    /* padding: 5% 15% 5% 15%; */
+    margin-top: -21.5%;
+    margin-right: -41%;
+    z-index: 2;
+  }
+}
+@media (max-width: 967px) and  (min-width: 539px) {
+  .fv-hostStep5Page .fv-hostStepPage1Right .fv-hostStep3InputText input {
+    width: 200%;
+  }
+
+}
+@media (max-width: 767px) {
+
+  .fv-HostStep2Page.fv-hostStep2Page2.fv-hostStep3Page.fv-hostStep4Page.fv-hostStep5Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-discountWeekly{
+    margin-top: 5%;
+  }
+}
+@media (max-width: 540px) {
+  .fv-hostStep5Page .fv-hostStepPage1Right .fv-hostStep3InputText input {
+    width: 136%;
+  }
+  .fv-hostStep5Page .fv-hostStepPage2LeftButtonBody {
+    margin-top: -12%;
+  }
+  .fv-hostStep2Page2.fv-HostStep2Page.fv-hostStep5Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+    margin-left: 0%;
+  }
+}
+@media (max-width: 280px){
+  .fv-HostStep2Page.fv-HostStep2Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+
+  }
+}

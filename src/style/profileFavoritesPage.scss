@@ -1,0 +1,276 @@
+.fv-profileFavoritesPage {
+  .fv-productImage {
+    margin-top: -18%;
+  }
+
+  .fv-trashFavorites {
+    text-align: end;
+    margin-top: -2%;
+    margin-left: 4%;
+    /* margin-top: -2%; */
+    font-size: 26px;
+    color: #3EC886;
+  }
+
+  .fv-productFavorites {
+    .fv-productCapacityBoxFavorites {
+      .col-md-11 {
+        margin-right: 7%;
+        display: inherit;
+        align-items: center;
+      }
+
+      .fa-bed {
+        margin-left: 3%;
+      }
+
+      .fv-capacityBody, .fv-maximumNumber {
+        display: none;
+      }
+    }
+
+    .fv-productPriceBoxToman, .fv-productPriceBox {
+      direction: ltr;
+    }
+
+    .fv-productLocation .col-md-9 {
+      font-size: 20px;
+      padding-right: 7%;
+    }
+  }
+
+  .fv-productPriceBox a:not([href]):not([tabindex]), .fv-productPriceBox a:not([href]):not([tabindex]):focus, .fv-productPriceBox a:not([href]):not([tabindex]):hover {
+    margin-left: 5%;
+  }
+
+  .fv-product .fv-productPriceBoxToman {
+    color: #15BE29;
+    padding-left: 7%;
+  }
+
+  .fv-product .fv-productPriceBox .col-md-10 {
+    flex: 0 0 110.333333%;
+    max-width: 118.333333%;
+    margin-left: -6%;
+    margin-top: 3%;
+    display: inherit;
+  }
+
+  .fv-product {
+    background-color: white;
+    width: 107%;
+    padding-right: -15%;
+    padding-bottom: 0%;
+    padding-top: 7%;
+    border: 1px solid #88888817;
+    border-radius: 15px;
+    box-shadow: 1px 1px 11px #88888830;
+    margin-bottom: 9%;
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo {
+    box-shadow: none;
+    margin-right: 0%;
+    padding-right: 3%;
+  }
+
+  .fv-productCapacityBoxFavorites {
+    margin-top: -5%;
+  }
+
+  .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo .fv-productPriceBox p {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 14px;
+    margin-left: 3%;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 768px) {
+  .fv-getFinancialReportsDeleteAndEditColumn {
+    display: flex;
+  }
+}
+
+
+@media (max-width: 989px) and (min-width: 768px) {
+  .fv-profileFavoritesPage .fv-product {
+    width: 120%;
+  }
+}
+
+@media (max-width: 766px) {
+  .fv-profileFavoritesPage {
+    .fv-productCapacityBoxFavorites {
+      font-size: 3.5vw;
+
+      .col-md-5 {
+        margin-left: -44px;
+      }
+
+      .col-sm-3 {
+        flex: 0 0 16%;
+        width: 25% !important;
+        display: flex !important;
+      }
+
+      .col-sm-4 {
+        margin-left: 7%;
+        flex: 0 0 33.333333%;
+        width: 33.333333% !important;
+        margin-top: -1%;
+      }
+
+      .col-md-11 {
+        margin-right: -3%;
+        display: flex;
+        align-items: center;
+        direction: rtl;
+      }
+
+    }
+
+    .fv-mobileProduct {
+      width: 113%;
+      direction: ltr;
+    }
+
+    .fv-productCapacityBoxFavorites .col-md-11 {
+      direction: rtl;
+    }
+
+    .fv-product .row .col-md-2 {
+      margin-left: 17px;
+    }
+
+    .fv-productFavorites .fv-productPriceBoxToman, .fv-profileFavoritesPage .fv-productFavorites .fv-productPriceBox {
+      direction: ltr;
+      margin-left: -2%;
+    }
+
+    .fv-product .fv-productPriceBox .col-md-10 {
+      /* margin-left: -33%; */
+      /* margin-top: 4%; */
+      /* display: flex; */
+      /* direction: rtl; */
+      margin-left: 5%;
+      margin-top: 0%;
+    }
+
+    .fv-productPriceBox a:not([href]):not([tabindex]), .fv-profileFavoritesPage .fv-productPriceBox a:not([href]):not([tabindex]):focus, .fv-profileFavoritesPage .fv-productPriceBox a:not([href]):not([tabindex]):hover {
+      margin-left: 5%;
+      font-size: 16px;
+    }
+
+    .fv-productFavorites .fv-productCapacityBoxFavorites .fv-capacityBody, .fv-productFavorites .fv-productCapacityBoxFavorites .fv-maximumNumber {
+      display: block;
+    }
+
+    .fv-ProfilePageWallet2 .fv-footerMenuMobileTitle {
+      // margin-top: 550%;
+    }
+
+    .fv-product.fv-mobileProduct.fv-productFavorites .fv-trashFavorites {
+      text-align: inherit;
+      margin-top: 0%;
+      margin-left: 4%;
+      font-size: 26px;
+      color: #3EC886;
+    }
+
+    .fv-productFavorites .fv-productCapacityBoxFavorites .col-md-11 {
+      margin-right: 0%;
+    }
+
+    .fv-productImage {
+      margin-top: -22%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo {
+      margin-top: 0%;
+      margin-bottom: 6%;
+    }
+
+    .fv-DisplayPage .row {
+      margin-right: -5px;
+      margin-left: -14px;
+    }
+
+    .fv-footerMenuMobileTitle {
+      // margin-top: 550%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo h5 {
+      margin-bottom: 7%;
+      margin-right: 10%;
+    }
+
+    .fv-productFavorites .fv-productCapacityBoxFavorites .col-md-11 {
+      margin-right: 0%;
+      font-size: 3.5vw;
+    }
+
+    .fv-product .row .col-md-2 {
+      font-size: 3.5vw;
+    }
+
+    .fv-productFavorites .fv-productCapacityBoxFavorites .fa-bed {
+      margin-left: 3%;
+      margin-top: -3%;
+    }
+
+    .fv-product .col-md-5 {
+      text-align: end;
+      margin-right: -44px;
+      font-size: 3.5vw;
+    }
+
+    .fv-productCapacityBoxFavorites {
+      margin-top: 0%;
+    }
+  }
+  .fv-profileFavoritesPage .fv-product.fv-mobileProduct.fv-productFavorites .fv-trashFavorites .fa-trash {
+    // margin-top: -10%;
+    margin-bottom: 9%;
+  }
+  .fv-profileFavoritesPage .fv-productFavorites .fv-productLocation .col-md-9 {
+    padding-right: 2%;
+  }
+  .fv-profileFavoritesPage .fv-productFavorites .fv-productCapacityBoxFavorites .col-md-11 {
+    margin-left: 16%;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .fv-profileFavoritesPage {
+    .fv-productCapacityBoxFavorites .col-sm-4 {
+      margin-left: 11%;
+      flex: 0 0 33.333333%;
+      width: 33.333333% !important;
+      margin-top: -1%;
+    }
+  }
+  .fv-profileFavoritesPage .fv-productFavorites .fv-productCapacityBoxFavorites .col-md-11 {
+    margin-right: -2%;
+  }
+  .fv-profileFavoritesPage .fv-productCapacityBoxFavorites .col-md-5 {
+    margin-left: -63px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .fv-profileFavoritesPage {
+    .fv-productCapacityBoxFavorites .col-sm-4 {
+      margin-left: 11%;
+      flex: 0 0 33.333333%;
+      width: 33.333333% !important;
+      margin-top: -1%;
+    }
+  }
+  .fv-profileFavoritesPage .fv-productPriceBox a:not([href]):not([tabindex]), .fv-profileFavoritesPage .fv-profileFavoritesPage .fv-productPriceBox a:not([href]):not([tabindex]):focus, .fv-profileFavoritesPage .fv-profileFavoritesPage .fv-productPriceBox a:not([href]):not([tabindex]):hover {
+    margin-left: 5%;
+    font-size: 13px;
+  }
+}

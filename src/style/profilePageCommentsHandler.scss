@@ -1,0 +1,12 @@
+.fv-ProfilePageWallet.fv-ProfilePageGustComments2.fv-profilePageCommentsHandler {
+  .cssload-wave, .cssload-wave * {
+    margin: auto;
+    margin-top: 28%;
+  }
+}
+@media (max-width: 763px) {
+  .fv-ProfilePageWallet.fv-ProfilePageGustComments2.fv-profilePageCommentsHandler .cssload-wave, .fv-ProfilePageWallet.fv-ProfilePageGustComments2.fv-profilePageCommentsHandler .cssload-wave * {
+    margin: auto;
+    margin-top: 50%;
+  }
+}

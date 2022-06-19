@@ -1,0 +1,479 @@
+.fv-hostStep5Page3 {
+
+  .hostStepPage .fv-headerHomeImage .fv-hostStep5Page3SelectIcon {
+    i {
+      color: #3EC886;
+      background-color: #C9FFBA;
+    }
+
+    p {
+      color: black;
+    }
+  }
+
+  .fv-hostStep5Page3TopPicImage {
+    width: 81%;
+    height: 33%;
+    background: #FFFFFF;
+    border: 1px dashed #66D448;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+
+    img {
+      margin: auto;
+    }
+  }
+
+  .fv-hostStepPage1Right h5 {
+    padding-top: 0%;
+    margin-right: -3%;
+    padding-bottom: 0%;
+    margin-top: -4%;
+  }
+
+  .fv-hostStepPage2LeftButtonBody {
+    margin-top: 80%;
+  }
+
+  .fv-hostStep5Page3MultiImages {
+    direction: rtl;
+    margin-top: -51%;
+  }
+
+  .fv-hostStep5Page3MultiImages .fv-hostStep5Page3Images {
+    margin-right: -6px;
+    margin-left: 17px;
+    height: 229px;
+    text-align: center;
+    align-items: center;
+    border: 1px dashed #66D448;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+  }
+
+  .fv-hostStep5Page3MultiImages .fv-hostStep5Page3ImagesComment p {
+    margin-right: -2%;
+    margin-top: 7%;
+    margin-bottom: 1%;
+    text-align: start;
+  }
+
+  .fv-hostStep5Page3MultiImages .fv-hostStep5Page3ImagesComment input {
+    width: 93%;
+    margin-left: 12%;
+    margin-right: -2%;
+    height: 54px;
+    border-radius: 8px;
+    border: 1px solid rgba(145, 145, 145, 0.5);;
+  }
+
+  .fv-hostStep5Page3TopPicImage label {
+    display: grid;
+  }
+
+  .container .fv-footerMainPage {
+    padding-top: 35%;
+  }
+
+  .fv-hostStepSetImages {
+    margin-left: 1%;
+    border-radius: 10px;
+    background-color: #15BE29;
+    border: none;
+    color: white;
+    font-size: 13px;
+    margin-top: 1%;
+    width: 140.5px;
+    height: 50px;
+    z-index: 30;
+  }
+
+  .fv-hideLoader {
+    display: none;
+  }
+
+  .fv-test {
+    margin-top: 20%;
+  }
+
+  .fv-hostStep5Page3TopPicImage img {
+    margin-bottom: 2%;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  .fv-hostStep5Page3Images img {
+    margin-bottom: 2%;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+  }
+
+  .loaderImage {
+    position: relative;
+    /* border-radius: 16px; */
+    /* background-color: #15BE29; */
+    margin-top: 8%;
+    /* width: 195.5px; */
+    height: 51px;
+    /* margin-left: 7%; */
+  }
+
+  .fv-hostStep5Page3TopPicImage .fv-hideLoader, .fv-hostStep5Page3Images .fv-hideLoader {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 1200px) and (min-width: 768px) {
+  .fv-hostStep5Page3 .fv-hostStepPage2LeftButtonBody {
+    margin-top: 15%;
+  }
+  .fv-hostStep5Page3 .fv-hostStep5Page3MultiImages {
+    direction: rtl;
+    margin-top: -72%;
+  }
+  .fv-hostStep5Page3 .fv-hostStep5Page3TopPicImage {
+    width: 92%;
+    height: 29%;
+  }
+  .fv-hostStep5Page3 .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage1LeftButton {
+    border-radius: 8px;
+    margin-left: 5vw;
+    /* padding: 5.4% 13.4% 5.4% 13.4%; */
+    width: 24vw;
+    height: 9vw;
+    margin-top: 49vw;
+  }
+  .fv-hostStep5Page3 .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+    margin-left: 78%;
+    /* padding: 5% 15% 5% 15%; */
+    margin-top: -25%;
+    margin-right: -52%;
+    z-index: 2;
+  }
+  .fv-hostStep5Page3 .fv-hostStep5Page3Images .btn {
+    margin: -2.625rem;
+    color: inherit;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    white-space: normal;
+    cursor: pointer;
+    border: 0;
+    border-radius: .125rem;
+    padding: .84rem 2.14rem;
+    font-size: 0.81rem;
+    padding: 0;
+    margin: 0;
+    padding: 6%;
+  }
+
+  .fv-hostStep5Page3 .fv-hostStep5Page3Images label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    display: contents;
+  }
+  .fv-hostStep5Page3 .fv-hostStep5Page3MultiImages .fv-hostStep5Page3Images {
+    margin-right: -6px;
+    margin-left: 0px;
+    height: 205px;
+    /* text-align: center; */
+    align-items: center;
+    border: 1px dashed #66D448;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  .fv-hostStep5Page3 .fv-hostStep5Page3Images img {
+    vertical-align: middle;
+    border-style: none;
+    width: 65%;
+    margin-left: 19%;
+    margin-right: 15%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 460px) {
+  .fv-hostStep5Page3 {
+
+    .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage1LeftButton {
+      z-index: 2;
+    }
+
+    .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+      z-index: 2;
+    }
+
+    .fv-hostStep5Page3TopPicImage {
+      width: 109%;
+      height: 100%;
+    }
+
+    .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left {
+      text-align: initial;
+      margin-top: -47%;
+    }
+
+    .fv-hostStep5Page3MultiImages .fv-hostStep5Page3Images {
+      margin-right: -6px;
+      margin-left: -2px;
+    }
+
+    .fv-hostStep5Page3MultiImages .fv-hostStep5Page3Images {
+      height: 275px;
+    }
+
+    .fv-hostStep5Page3MultiImages .fv-hostStep5Page3ImagesComment input {
+      margin-bottom: 4%;
+    }
+
+    .fv-hostStep5Page3MultiImages .fv-hostStep5Page3ImagesComment p {
+      float: right;
+      margin-right: 0%;
+      margin-top: 5%;
+      margin-bottom: 3%;
+    }
+
+    .fv-hostStep5Page3MultiImages .fv-hostStep5Page3ImagesComment input {
+      width: 103%;
+      margin-left: 8%;
+    }
+
+    .fv-hostStep5Page3MultiImagesMobileAnotherPicP {
+      margin-right: 3%;
+      font-size: 12px;
+    }
+
+    .fv-footerMenuMobileTitle {
+      margin-top: 66%;
+    }
+
+    .fv-hostStep5Page3MultiImages {
+      direction: rtl;
+      margin-top: -362%;
+    }
+
+    .fv-hostStepPage2LeftButtonBody {
+      margin-top: 399%;
+    }
+
+    .loader {
+      position: relative;
+      /* border-radius: 16px; */
+      background-color: #15BE29;
+      margin-top: 15%;
+      /* width: 195.5px; */
+      /* height: 67px; */
+      /* margin-left: 7%; */
+      border-radius: 8px;
+      margin-left: 9vw;
+      /* padding: 5.4% 13.4% 5.4% 13.4%; */
+      width: 40vw;
+      height: 16vw;
+      margin-top: 20vw;
+    }
+
+    .fv-hostStepSetImages {
+      margin-left: -2%;
+      border-radius: 10px;
+      background-color: #15BE29;
+      border: none;
+      color: white;
+      font-size: 13px;
+      margin-top: 1%;
+      width: 91.5px;
+      height: 50px;
+      z-index: 30;
+    }
+  }
+
+}
+
+@media (max-width: 460px) {
+  .fv-hostStep5Page3 {
+
+    .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage1LeftButton {
+      z-index: 2;
+      margin-top: 83vw;
+    }
+
+    .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+      z-index: 2;
+    }
+
+    .fv-hostStep5Page3TopPicImage {
+      width: 109%;
+      height: 85%;
+    }
+
+    .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left {
+      text-align: initial;
+      margin-top: -47%;
+    }
+
+    .fv-hostStep5Page3MultiImages .fv-hostStep5Page3Images {
+      margin-right: -6px;
+      margin-left: -2px;
+    }
+
+    .fv-hostStep5Page3MultiImages .fv-hostStep5Page3Images {
+      height: 275px;
+    }
+
+    .fv-hostStep5Page3MultiImages .fv-hostStep5Page3ImagesComment input {
+      margin-bottom: 4%;
+    }
+
+    .fv-hostStep5Page3MultiImages .fv-hostStep5Page3ImagesComment p {
+      float: right;
+      margin-right: 0%;
+      margin-top: 5%;
+      margin-bottom: 3%;
+    }
+
+    .fv-hostStep5Page3MultiImages .fv-hostStep5Page3ImagesComment input {
+      width: 103%;
+      margin-left: 8%;
+    }
+
+    .fv-hostStep5Page3MultiImagesMobileAnotherPicP {
+      margin-right: 3%;
+      font-size: 12px;
+    }
+
+    .fv-footerMenuMobileTitle {
+      margin-top: 124%;
+    }
+
+    .fv-hostStepPage2LeftButtonBody {
+      margin-top: 530%;
+    }
+
+    .fv-hostStep5Page3MultiImages {
+      direction: rtl;
+      margin-top: -551%;
+    }
+
+    .loader {
+      position: relative;
+      /* border-radius: 16px; */
+      background-color: #15BE29;
+      /* width: 195.5px; */
+      /* height: 67px; */
+      /* margin-left: 7%; */
+      border-radius: 8px;
+      margin-left: 9vw;
+      /* padding: 5.4% 13.4% 5.4% 13.4%; */
+      width: 40vw;
+      height: 16vw;
+      margin-top: 20vw;
+    }
+
+    .fv-hostStepSetImages {
+      margin-left: -2%;
+      border-radius: 10px;
+      background-color: #15BE29;
+      border: none;
+      color: white;
+      font-size: 13px;
+      margin-top: 1%;
+      width: 91.5px;
+      height: 50px;
+      z-index: 30;
+    }
+
+    .fv-hostStep5Page3Images img {
+      margin-bottom: 2%;
+      width: 209px;
+      height: 150px;
+      border-radius: 10px;
+    }
+  }
+  .fv-hostStep5Page.fv-hostStep5Page2.fv-hostStep5Page3 .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+    margin-top: 83vw;
+  }
+}
+
+@media (max-width: 375px) {
+  .fv-hostStep5Page3 .fv-hostStep5Page3MultiImages {
+    direction: rtl;
+    margin-top: -551%;
+  }
+  .fv-hostStep5Page3 .fv-hostStepPage2LeftButtonBody {
+    margin-top: 530%;
+  }
+}
+
+@media (max-width: 370px) {
+  .fv-hostStep5Page3 .fv-hostStepPage2LeftButtonBody {
+    margin-top: 606%;
+  }
+  .fv-hostStep5Page3 .fv-hostStep5Page3MultiImages {
+    direction: rtl;
+    margin-top: -629%;
+  }
+}
+
+@media (max-width: 340px) {
+  .fv-hostStep5Page3 .fv-hostStepPage2LeftButtonBody {
+    margin-top: 638%;
+  }
+  .fv-hostStep5Page3 .fv-hostStep5Page3MultiImages {
+    direction: rtl;
+    margin-top: -670%;
+  }
+  .fv-hostStep5Page3 .fv-hostStep5Page3TopPicImage label {
+    display: grid;
+    margin-right: -1%;
+  }
+  .fv-hostStep5Page3 .fv-hostStep5Page3MultiImagesMobileAnotherPicP {
+    margin-right: -3%;
+    text-align: initial;
+  }
+}
+
+@media (max-width: 310px) {
+  .fv-hostStep5Page3 .fv-hostStep5Page3MultiImages {
+    direction: rtl;
+    margin-top: -797%;
+  }
+  .fv-hostStep5Page3 .fv-hostStepPage2LeftButtonBody {
+    margin-top: 724%;
+  }
+  .fv-hostStep5Page3 .fv-hostStep5Page3MultiImagesMobileAnotherPicP {
+    margin-right: -7%;
+    font-size: 14px;
+  }
+  .fv-hostStep5Page3 .fv-hostStepPage1Left.fv-hostStepPageSpace .fv-hostStepPage1LeftButton {
+    margin-top: 123vw;
+  }
+  .fv-hostStep5Page3.fv-hostStep5Page.fv-hostStep5Page2 .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+    margin-top: 123vw;
+  }
+  .fv-hostStep5Page3 .fv-hostStep5Page3TopPicImage img {
+    margin-bottom: 2%;
+    width: 218px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .fv-hostStep5Page3 .fv-hostStep5Page3TopPicImage img {
+    margin-bottom: 2%;
+    width: 218px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: -3%;
+  }
+  .fv-hostStep5Page3 .fv-hostStep5Page3TopPicImage label {
+    display: grid;
+    margin-right: -1%;
+  }
+  .fv-hostStep5Page3 .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage1LeftButton {
+    z-index: 2;
+    margin-top: 123vw;
+  }
+}

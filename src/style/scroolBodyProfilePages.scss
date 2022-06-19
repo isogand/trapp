@@ -1,0 +1,26 @@
+.container.fv-SearchHomePage.fv-DisplayPage{
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo {
+
+    /* background-color: #eee; */
+    /* width: 200px; */
+    //height: 1000px ;
+    /* border: 1px dotted black; */
+    //overflow-y: scroll;
+    /* display: none; */
+    -ms-overflow-style: none;
+    //scrollbar-width: none;
+  }
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (max-width: 763px) {
+  .container.fv-SearchHomePage.fv-DisplayPage .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo {
+    padding: 0;
+  }
+  .container.fv-SearchHomePage.fv-DisplayPage .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo {
+    padding: 0;
+    display: grid;
+  }
+}

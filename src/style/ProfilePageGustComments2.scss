@@ -1,0 +1,290 @@
+.fv-ProfilePageGustComments2 {
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo {
+    .fv-ProfilePageReservationSetInfo .fv-ProfilePageUserSetInfoButton input {
+      width: 100%;
+      margin-right: 340%;
+      padding: 0;
+    }
+
+    .fv-ProfilePageGustComments2SetComment {
+      textarea {
+        width: 775px;
+        margin-right: 12px;
+        margin-left: 1%;
+        height: 115px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        border-radius: 14px;
+        color: #919191;
+      }
+
+      form {
+        width: 100%;
+      }
+    }
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageWalletWalletButton .fv-ProfilePageUserSetInfoButton input {
+    width: 70.5%;
+    padding: 0;
+    margin-left: 13%;
+    margin-top: 20%;
+  }
+
+  .fv-ProfilePageGustComments2CommentOne {
+    border: 1px solid rgba(145, 145, 145, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-bottom: 2%;
+    margin-top: 2%;
+
+    .col-md-2 {
+      text-align: center;
+      margin-right: -2%;
+      align-self: center;
+    }
+
+    .col-md-7 {
+      padding-right: 0;
+      align-self: center;
+
+      h5, p {
+        margin: 0;
+      }
+    }
+
+    img {
+      height: 50px;
+      width: 50px;
+    }
+
+    .fv-ProfilePageGustComments2CommentOneAnswer {
+      width: 102%;
+      background: rgba(102, 212, 72, 0.13);
+      border-radius: 15px;
+      color: #3EC886;
+      margin-right: -1%;
+
+      .fv-ProfilePageGustComments2CommentOneAnswerComment {
+        margin-right: 0%;
+
+        p {
+          margin-top: 0%;
+          margin-bottom: 2%;
+        }
+      }
+
+      .fv-ProfilePageGustComments2CommentOneAnswerCommentDate {
+        p {
+          margin-top: 2%;
+          margin-bottom: -8%;
+          text-align: end;
+        }
+      }
+    }
+
+    .fv-ProfilePageGustComments2CommentOneLogo {
+      margin-top: 2%;
+    }
+
+    .fv-ProfilePageGustComments2CommentOneAnswerButton {
+      h6 {
+        margin-top: -4%;
+        margin-bottom: 0%;
+        text-align: end;
+        color: #3EC886;
+      }
+    }
+
+    .fv-hideAnswerComments {
+      display: none;
+    }
+  }
+
+  .fv-ProfilePageGustComments2CommentOne2 {
+    padding-bottom: 0%;
+  }
+
+  .fv-ProfilePageWalletWalletButton {
+    margin-left: 1.5%;
+    place-items: center;
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageWalletWalletButton .fv-ProfilePageUserSetInfoButton input {
+    margin-left: -6%;
+  }
+
+  .fv-commentsLoaderHide {
+    display: none;
+  }
+
+  .cssload-wave, .cssload-wave * {
+    margin: auto;
+    margin-top: 28%;
+  }
+
+}
+
+@media (max-width: 763px) {
+  .fv-ProfilePageGustComments2 {
+
+    .fv-ProfilePageGustComments2CommentOne img {
+      height: 100%;
+      width: 112%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+      padding-bottom: 23%;
+      margin-bottom: 6%;
+    }
+
+    .fv-ProfilePageGustComments2CommentOne .fv-ProfilePageGustComments2CommentOneAnswerButton h6 {
+      margin-top: 2%;
+      margin-bottom: 5%;
+      text-align: end;
+      color: #3EC886;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .col-md-3 {
+      display: contents;
+    }
+
+    .fv-ProfilePageGustComments2CommentOne .fv-ProfilePageGustComments2CommentOneAnswer .fv-ProfilePageGustComments2CommentOneAnswerCommentDate p {
+      margin-top: 6%;
+      margin-bottom: -10%;
+      text-align: end;
+    }
+
+    .fv-ProfilePageWallet .fv-footerMenuMobileTitle {
+      margin-top: 33%;
+    }
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageGustComments2SetComment textarea {
+    width: 67vw;
+    margin-right: -6%;
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageWalletWalletButton .fv-ProfilePageUserSetInfoButton input {
+    width: 47.5%;
+    margin-top: 15px;
+    margin-left: 9%;
+  }
+
+  .fv-ProfilePageGustComments2 .fv-ProfilePageGustComments2CommentOne .fv-ProfilePageGustComments2CommentOneAnswer {
+    font-size: 2.5vw;
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageGustComments2CommentOne .fv-ProfilePageGustComments2CommentOneAnswer .fv-ProfilePageGustComments2CommentOneAnswerComment p {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-size: 5vw;
+    color: black;
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo .col-md-4 {
+    margin-left: 0%;
+    margin-right: 4px;
+    width: 113%;
+    margin-left: -13%;
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageGustComments2CommentOne .fv-ProfilePageGustComments2CommentOneLogo {
+    margin-top: 6%;
+  }
+}
+
+@media (max-width: 560px) {
+  .fv-ProfilePageGustComments2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageGustComments2SetComment textarea {
+    width: 73vw;
+    margin-right: -5%;
+  }
+  .fv-ProfilePageGustComments2 .cssload-wave, .fv-ProfilePageGustComments2 .cssload-wave * {
+    margin: auto;
+    margin-top: 9%;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .fv-ProfilePageGustComments2 {
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo h5 {
+      margin-bottom: 0%;
+      font-size: 15px;
+    }
+
+    .fv-ProfilePageGustComments2CommentOne .fv-ProfilePageGustComments2CommentOneAnswer .fv-ProfilePageGustComments2CommentOneAnswerCommentDate p {
+      font-size: 11px;
+    }
+
+    .fv-ProfilePageGustComments2CommentOne .fv-ProfilePageGustComments2CommentOneAnswer .fv-ProfilePageGustComments2CommentOneAnswerComment p {
+      margin-top: 6%;
+      margin-bottom: 7%;
+      font-size: 11px;
+      margin-right: 3%;
+    }
+
+    .fv-footerMenuMobileTitle {
+      // margin-top: 220%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageGustComments2SetComment textarea {
+      width: 71vw;
+      margin-right: -5%;
+    }
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo h5 {
+    margin-bottom: 0%;
+    font-size: 4vw;
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    padding-bottom: 27%;
+    margin-bottom: 6%;
+  }
+
+}
+
+@media (max-width: 280px) {
+  .fv-ProfilePageGustComments2 .fv-ProfilePageGustComments2CommentOne .fv-ProfilePageGustComments2CommentOneAnswer .fv-ProfilePageGustComments2CommentOneAnswerCommentDate p {
+    font-size: 10px;
+    margin-left: -6%;
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageGustComments2CommentOne .fv-ProfilePageGustComments2CommentOneAnswer .fv-ProfilePageGustComments2CommentOneAnswerComment p {
+    margin-top: 6%;
+    margin-bottom: 7%;
+    font-size: 10px;
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageGustComments2CommentOneAnswer h5 {
+    margin-bottom: 0%;
+    font-size: 13px;
+    margin-right: -8%;
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageGustComments2CommentOne2 {
+    padding-bottom: 4%;
+  }
+  .fv-ProfilePageGustComments2 .fv-footerMenuMobileTitle {
+    // margin-top: 249%;
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageGustComments2CommentOne img {
+    height: 108%;
+    width: 190%;
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageGustComments2CommentOne img {
+    height: 108%;
+    width: 233%;
+  }
+
+  .fv-ProfilePageGustComments2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo h5 {
+    margin-bottom: 0%;
+    margin-right: 15%;
+    font-size: 15px;
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageGustComments2CommentOne .col-md-7 h6, .fv-ProfilePageGustComments2 .fv-ProfilePageGustComments2CommentOne .col-md-7 p {
+    margin: 0;
+    margin-right: 13%;
+  }
+  .fv-ProfilePageTransaction2.fv-ProfilePageWallet.fv-ProfilePageGustComments2 .fv-ProfilePageGustComments2CommentOneAnswer .fv-ProfilePageGustComments2CommentOneAnswerCommentDate p {
+    font-size: 2vw;
+  }
+  .fv-ProfilePageGustComments2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    padding-bottom: 33%;
+    margin-bottom: 6%;
+  }
+}

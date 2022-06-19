@@ -1,0 +1,142 @@
+.fv-loginPage2 {
+  .fv-loginPageBodyOne {
+    .col-md-3, .col-md-3 p a {
+      margin-right: -6%;
+      color: #32C788;
+    }
+
+    .fv-loginPage2RightBodyButtonAndTime {
+      margin-left: 25%;
+      margin-top: 3%;
+
+      .col-md-8 {
+        text-align: end;
+        margin: auto;
+        margin-top: 4%;
+      }
+
+      .fv-loginPageButton {
+        width: 110%;
+        background: #15BE29;
+        border-radius: 16px;
+        color: white;
+        height: 54px;
+        border: 1px solid white;
+        margin-left: 26%;
+        margin-top: 3%;
+        padding: 0;
+      }
+    }
+
+    .fv-reloadLink {
+      color: #32C788;
+    }
+  }
+
+  .fv-loginPageBodyOne .loader {
+    position: relative;
+    /* border-radius: 16px; */
+    /* width: 195.5px; */
+    /* height: 67px; */
+    /* margin-left: 7%; */
+    /* padding: 5.4% 13.4% 5.4% 13.4%; */
+    width: 110%;
+    background: #15BE29;
+    border-radius: 16px;
+    color: white;
+    height: 54px;
+    border: 1px solid white;
+    margin-left: 26%;
+    margin-top: 3%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .fv-loginPage2 .fv-loginPageBodyOne .col-md-3 {
+    margin-right: 0%;
+    color: #32C788;
+    margin-top: -5%;
+  }
+  .fv-loginPage2 .fv-loginPageBodyOne .fv-loginPage2RightBodyButtonAndTime .fv-loginPageButton {
+    width: 117%;
+    background: #15BE29;
+    border-radius: 16px;
+    color: white;
+    height: 54px;
+    border: 1px solid #15BE29;
+    margin-left: 15%;
+    margin-top: 3%;
+    padding: 0;
+    margin-right: 18%;
+    margin-bottom: 30%;
+  }
+
+  .fv-loginPage2 .fv-loginPageBodyOne .fv-loginPage2RightBodyButtonAndTime .col-md-8 {
+    margin-top: 11%;
+    font-size: 3.5vw;
+    padding-left: 0%;
+    padding-right: 0;
+  }
+  .fv-loginPage2 .fv-loginPageImageLeftBody {
+    margin-top: -121%;
+  }
+  .fv-loginPage2 .fv-loginPageBodyOne .fv-loginPage2RightBodyButtonAndTime .col-sm-6 {
+    padding: 0;
+  }
+  .fv-loginPage2 .fv-loginPageBodyOne .fv-reloadLink {
+    color: #ffffff;
+  }
+  .fv-loginPage2 .fv-loginPageBodyOne .col-md-3, .fv-loginPage2 .fv-loginPageBodyOne .col-md-3 p a {
+    margin-right: 1%;
+    color: #32C788;
+  }
+  .fv-loginPageImageLeftBody img {
+    margin-right: -4%;
+    margin-top: -15%;
+  }
+  .fv-loginPage2 .fv-loginPageBodyOne .loader {
+    position: relative;
+    /* border-radius: 16px; */
+    /* width: 195.5px; */
+    /* height: 67px; */
+    /* margin-left: 7%; */
+    /* padding: 5.4% 13.4% 5.4% 13.4%; */
+    width: 110%;
+    background: #15BE29;
+    border-radius: 16px;
+    color: white;
+    height: 54px;
+    /* border: 1px solid white; */
+    margin-left: 26%;
+    margin-top: 3%;
+    padding: 0;
+    border: none;
+    margin-right: 46%;
+    margin-bottom: 30%;
+  }
+  .fv-loginPage2 .fv-loginPageBodyOne .fv-loginPage2RightBodyButtonAndTime {
+    margin-left: 14%;
+    margin-top: 3%;
+  }
+  .fv-loginPage2 .fv-loginPageBodyOne .loader.fv-loginMembershipWaitingButton {
+    margin-right: 18%;
+    width: 117%;
+  }
+}
+
+@media (max-width: 360px) and (min-width: 355px) {
+  .fv-loginPage .fv-loginPageImageLeftBody {
+    margin-top: -140%;
+  }
+}
+
+@media (max-width: 320px) {
+  .fv-loginPage2 .fv-loginPageImageLeftBody {
+    margin-top: -250;
+  }
+  .fv-loginPageImageLeftBody img {
+    margin-right: -5.5%;
+    margin-top: -32%;
+  }
+}

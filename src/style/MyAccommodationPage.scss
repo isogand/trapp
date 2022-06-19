@@ -1,0 +1,236 @@
+.fv-MyAccommodationPage {
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButton .fv-myAccommodationPageActiveButton {
+    background-color: #15BE29;
+    box-shadow: none;
+    font-size: 14px;
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-myAccommodationPageCol6Button {
+    input {
+      width: 108%;
+      margin-left: -3%;
+      font-size: 14px;
+    }
+
+    .fv-myAccommodationPagePaddingRightButton {
+      padding-right: 3%;
+    }
+
+    .fv-myAccommodationPagePaddingLeftButton {
+      padding-left: 3%;
+    }
+  }
+
+  .fv-ProfilePageReservation2ImageProductContentTopOne {
+    .col-md-7 {
+      flex: 0 0 30.9%;
+    }
+
+    .col-md-5 {
+      color: #eb5757;
+      max-width: 32.666667%;
+
+      input {
+        background: #eb5757;
+      }
+    }
+
+    .col-md-4 {
+      max-width: 22.666667%;
+    }
+  }
+
+  .fv-ProfilePageReservation2ProductLocaton a, .fv-ProfilePageReservation2ProductDate a {
+    margin-right: 0%;
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo {
+    box-shadow: none;
+  }
+
+  .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-5 input, .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-4 input, .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-7 input {
+    width: 12px;
+    height: 12px;
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-addMyAccommodation input {
+    width: 22vh;
+    margin-right: -10%;
+    text-align: center;
+    /* font-size: 37px; */
+    padding: 0px;
+    padding-top: 9%;
+    margin-bottom: 1vh;
+    border: 1px solid #15BE29;
+    /* color: #15BE29; */
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-addMyAccommodation .col-md-1 {
+    text-align: end;
+  }
+
+  .fv-myAccommodationProducts .fv-productTopic h6 {
+    margin-top: 3%
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButton input, .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButtonSet input {
+    border-radius: 13px;
+  }
+}
+
+
+@media (max-width: 1200px) and (min-width: 991px) {
+  .fv-MyAccommodationPage {
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-myAccommodationPageCol6Button input {
+      font-size: 15px;
+      padding: 0;
+    }
+  }
+  .fv-MyAccommodationPage .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-7 {
+    flex: 0 0 38.9%;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 764px) {
+  .fv-MyAccommodationPage {
+    .fv-ProfilePageReservation2 .fv-product {
+      padding-top: 2%;
+      padding-bottom: 10%;
+      width: 117%;
+      margin-right: -5%;
+      margin-top: 5%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-myAccommodationPageCol6Button input {
+      font-size: 10px;
+      padding: 0;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButton .fv-myAccommodationPageActiveButton {
+      font-size: 10px;
+    }
+  }
+  .fv-MyAccommodationPage .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-7 {
+    flex: 0 0 38.9%;
+  }
+}
+
+@media (max-width: 762px) {
+  .fv-MyAccommodationPage {
+    .fv-myAccommodationPageFinanceButton {
+      display: none;
+    }
+
+    .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-7 input {
+      width: 12px;
+      height: 12px;
+      margin-left: 5%;
+    }
+
+    .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-5 input, .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-4 input {
+      width: 12px;
+      height: 12px;
+    }
+
+    .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-4 input {
+      margin-left: 7%;
+    }
+
+    .fv-footerMenuMobileTitle {
+      // margin-top: 1211%;
+    }
+
+    .fv-product {
+      margin-top: 11%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo p {
+      margin-left: -7%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-myAccommodationPageCol6Button input {
+      box-shadow: none;
+      width: 108%;
+      margin-left: -3%;
+      border: 1px solid rgba(145, 145, 145, 0.5);
+      box-sizing: border-box;
+      filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.08));
+      border-radius: 8px;
+      background: white;
+      color: #919191;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButton input, .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButtonSet input {
+      height: 58px;
+      filter: none;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButton .fv-myAccommodationPageActiveButton {
+      background-color: white;
+      box-shadow: none;
+      border: 1px solid #15BE29;
+      color: #15BE29;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-addMyAccommodation input {
+      width: 38vw;
+      margin-right: -10%;
+      text-align: center;
+      /* font-size: 37px; */
+      padding: 0;
+      padding-top: 2%;
+
+    }
+
+    .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo .fv-addMyAccommodation h5 {
+      margin-bottom: -19%;
+      font-size: 4vw;
+      margin-top: 12%;
+    }
+
+  }
+  .fv-ProfilePage.fv-ProfilePageReservation.fv-ProfilePageReservation2.fv-ProfilePageTransaction.fv-ProfilePageTransaction2.fv-MyAccommodationPage .fv-product {
+    width: 92%;
+  }
+  .fv-ProfilePage.fv-ProfilePageReservation.fv-ProfilePageReservation2.fv-ProfilePageTransaction.fv-ProfilePageTransaction2.fv-MyAccommodationPage .row .fv-product {
+    margin-right: 2%;
+  }
+}
+
+@media (max-width: 320px) {
+  .fv-MyAccommodationPage {
+    .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-7 {
+      flex: 0 0 37.9%;
+    }
+
+    .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-5 {
+      max-width: 28.666667%;
+    }
+
+    .fv-ProfilePageReservation2ImageProductContentTopOne .col-md-4 {
+      max-width: 26.666667%;
+    }
+
+    .fv-footerMenuMobileTitle {
+      // margin-top: 1311%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButton input, .fv-MyAccommodationPage .fv-ProfilePageReservation2 .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButtonSet input {
+      height: 58px;
+      filter: none;
+      padding: 0;
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .fv-MyAccommodationPage .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-profilePaeReservation2PayButton .fv-myAccommodationPageActiveButton {
+    font-size: 11px;
+  }
+  .fv-MyAccommodationPage .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-myAccommodationPageCol6Button input {
+    font-size: 11px;
+  }
+
+}

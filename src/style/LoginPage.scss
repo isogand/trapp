@@ -1,0 +1,303 @@
+.fv-loginPage {
+  direction: rtl;
+  text-align: initial;
+  //margin: -260px;
+
+  .col-md-6 {
+    padding-left: 0%;
+    padding-right: -1%;
+  }
+
+  .fv-LoginPageHeader {
+    text-align: initial;
+    margin-top: 2%;
+
+    .col {
+      display: flex;
+      margin-right: 5%;
+    }
+
+    .fas, .fa {
+      margin-top: 3%;
+      margin-left: 2%;
+      margin-right: 3%;
+    }
+
+    p {
+      margin-top: 2%;
+    }
+  }
+
+  .fv-loginPageBodyOne {
+    margin-top: 20%;
+    margin-right: 7%;
+
+    input {
+      width: 75%;
+      height: 54px;
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      border-radius: 14px;
+      padding-right: 5%;
+      color: rgba(78, 78, 78, 0.43);
+    }
+
+    .fv-loginPageButton {
+      width: 22%;
+      background: #15BE29;
+      border-radius: 16px;
+      color: white;
+      height: 54px;
+      border: 1px solid #15BE29;
+      margin-left: 26%;
+      margin-top: 3%;
+      padding: 0;
+    }
+  }
+
+  .fv-loginPageImageLeftBody {
+    img {
+      width: 102%;
+      //height: 747px;
+    }
+  }
+
+  .fv-loginPageBody {
+    z-index: 200;
+  }
+
+  .fv-alertNotErrorText {
+    display: none;
+  }
+
+  .fv-alertErrorText {
+    color: mediumvioletred;
+    margin-right: 3%;
+  }
+
+  .fv-redBorderError {
+    border: 1px solid red !important;
+    background: #E88F0A !important;
+    color: black !important;
+  }
+
+  .fv-loginPageBodyOne .loader {
+    position: relative;
+    /* border-radius: 16px; */
+    /* width: 195.5px; */
+    /* height: 67px; */
+    /* margin-left: 7%; */
+    /* padding: 5.4% 13.4% 5.4% 13.4%; */
+    width: 22%;
+    background: #15BE29;
+    border-radius: 16px;
+    color: white;
+    height: 54px;
+    border: 1px solid #15BE29;
+    margin-left: 26%;
+    margin-top: 3%;
+    padding: 0;
+  }
+
+  .fv-hideLoader {
+    display: none;
+  }
+
+  .fv-loginPageBodyOne .row {
+    justify-content: flex-end;
+  }
+
+  .fv-loginPagesBody {
+    max-width: 1140px;
+    /* margin: 0; */
+    padding: 0;
+    margin-right: 6%;
+  }
+
+  .fv-LoginPageHeader a {
+    color: black;
+  }
+
+  .fv-rulesText {
+    p {
+      width: 69%;
+      text-align: center;
+      font-size: 12px;
+      margin-top: 2%;
+      display: initial;
+      margin-inline-end: auto;
+      margin-right: 3%;
+    }
+
+    a {
+      color: #15BE29;
+      font-size: 13px;
+    }
+  }
+}
+@media (min-width: 767px) {
+
+  .fv-loginPagesBody {
+    max-width: 1538px;
+    .fv-loginPage {
+      margin: -154px;
+      .col-md-6 {
+        padding-left: -1%;
+        padding-right: -1%;
+      }
+
+      .fv-loginPageImageLeftBody {
+        //margin-top: -100%;
+
+        img {
+          width: 102%;
+        }
+      }
+
+
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .fv-loginPagesBody {
+    max-width: 1294px;
+    //margin-top: 115px;
+    .fv-loginPage {
+      .col-md-6 {
+        padding-left: -1%;
+        padding-right: -1%;
+      }
+
+      .fv-loginPageImageLeftBody {
+        margin-top: -100%;
+
+        img {
+          width: 115%;
+          height: 175.3%;
+          //margin-right: -7.5%;
+        }
+      }
+
+      .fv-LoginPageHeader {
+        text-align: initial;
+        margin-top: 7%;
+
+        a {
+          color: white;
+        }
+      }
+
+      .fv-loginPageBodyOne {
+        margin-top: 11%;
+        margin-right: 4%;
+        margin-left: 8%;
+        padding-top: 8%;
+        color: white;
+        background: #38353540;
+        backdrop-filter: blur(16px);
+
+        .fv-loginPageButton {
+          width: 45%;
+          background: #15BE29;
+          border-radius: 16px;
+          color: white;
+          height: 54px;
+          /* border: 1px solid white; */
+          margin-left: 4%;
+          margin-top: 5%;
+          padding: 0;
+          margin-bottom: 5%;
+        }
+
+        input {
+          width: 100%;
+          height: 54px;
+        }
+
+        a {
+          color: black;
+        }
+      }
+
+      .fv-LoginPageHeader .col {
+        display: flex;
+        margin-right: 5%;
+        color: white;
+      }
+
+      .fv-loginPageBodyOne .loader.fv-loginPageLoadWaiting {
+
+        background: #15BE29;
+        border-radius: 16px;
+        color: white;
+        height: 54px;
+        border: 1px solid #15BE29;
+        padding: 0;
+        width: 45%;
+        margin-left: 4%;
+        margin-top: 5%;
+        padding: 0;
+        margin-bottom: 5%;
+      }
+
+      .fv-rulesText {
+        p {
+          width: 94%;
+        }
+
+        a {
+          color: #55efc4;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .fv-loginPage .fv-loginPageImageLeftBody img {
+    margin-right: -9%;
+  }
+  .fv-loginPage .fv-loginPageBodyOne .loader {
+    position: relative;
+    /* border-radius: 16px; */
+    /* width: 195.5px; */
+    /* height: 67px; */
+    /* margin-left: 7%; */
+    /* padding: 5.4% 13.4% 5.4% 13.4%; */
+    width: 44%;
+    background: #15BE29;
+    border-radius: 16px;
+    color: white;
+    height: 54px;
+    border: 1px solid #15BE29;
+    margin-left: 26%;
+    margin-top: 3%;
+    padding: 0;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    margin-left: 4%;
+    margin-top: 5%;
+    padding: 0;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 320px) {
+  .fv-loginPage .fv-loginPageImageLeftBody {
+    margin-top: -110%;
+  }
+  .fv-loginPage .fv-loginPageImageLeftBody img {
+    margin-right: -5%;
+  }
+}
+
+@media (max-width: 320px) {
+  .fv-loginPage .fv-loginPageImageLeftBody img {
+    margin-right: -12.5%;
+  }
+  .fv-loginPage .fv-loginPageImageLeftBody {
+    margin-top: -130%;
+  }
+}

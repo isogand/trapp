@@ -1,0 +1,4 @@
+{
+  "webapi": "http://api.trapp.ir",
+  "localapi": "http://localhost:8000"
+}

@@ -1,0 +1,151 @@
+.fv-addComments{
+ .fv-ProfilePageWallet2TextArea textarea {
+   width: 100%;
+   height: 389%;
+  }
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageUserSetInfoButton {
+    margin-top: 25%;
+  }
+  .fv-addCommentsRate{
+    .fv-cleaningRateAddComments , .fv-compatibilityWithAdvertisementAddComment , .fv-hospitalityAddComment , .fv-hostingQualityAddComment{
+      margin-top:2%;
+    }
+    .fv-cleaningRateStars{
+      margin-right: 7%;
+    }
+    .fv-compatibilityWithAdvertisementStars{
+      margin-right: 2%;
+    }
+    .fv-test{
+      background: #E88F0A;
+    }
+    .fv-test{
+      direction: rtl;
+    }
+    a {
+      margin-right: 3%;
+    }
+    .fv-compatibilityWithAdvertisement{
+      margin-right: 4%;
+    }
+    .fv-cleaning{
+      margin-right: 12%;
+    }
+    .col-md-6 {
+      p{
+        margin-left: 5%;
+      }
+      display: flex;
+      align-items: center;
+    }
+  }
+  .fv-addCommentsRateTopic{
+    margin-top: 28vh;
+    margin-bottom: -2%;
+  }
+  .fa-star{
+    margin-right: 2%;
+    color: #BDBDBD;
+  }
+  .fa-star:hover{
+    color: #E88F0A;
+  }
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo {
+    .fv-nameAddComments{
+      color: #aaaaaa;
+    }
+    svg {
+      padding: 6px;
+      margin: -10px;
+    }
+  }
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageUserSetInfoButton input {
+    width: 16%;
+    background: #15BE29;
+    border-radius: 16px;
+    color: white;
+  }
+
+}
+
+
+.react-stars-wrapper-03080020327025208 span {
+  /* background: #2F80ED; */
+  color: #15BE29;
+  font-size: 11px;
+  float: right !important;
+}
+
+@media (max-width: 764px) {
+  .fv-addComments {
+   .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageUserSetInfoButton input {
+      margin-top: -23%;
+      margin-left: 7%;
+    }
+    .fv-addCommentsRate {
+     .fv-cleaning {
+       margin-right: 21.5%;
+       margin-left: 1%;
+      }
+      .fv-hospitality{
+        margin-right: 7.5%;
+      }
+     .fv-compatibilityWithAdvertisement {
+        margin-right: 3.5%;
+      }
+      .col-md-6 {
+        font-size: 4vw;
+      }
+    }
+    .fv-addCommentsRateTopic{
+      margin-top: 73%;
+      margin-bottom: 2%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo svg {
+      padding: 7px;
+      margin: -14px;
+    }
+    .fv-addCommentsRate .fv-cleaningRateAddComments,.fv-addCommentsRate .fv-compatibilityWithAdvertisementAddComment,  .fv-addCommentsRate .fv-hospitalityAddComment, .fv-addCommentsRate .fv-hostingQualityAddComment {
+      margin-top: 10%;
+    }
+    .fv-hospitalityStars{
+      margin-right: 5%;
+    }
+     .fv-addCommentsRate .col-md-6 p {
+      margin-left: 0%;
+    }
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageUserSetInfoButton input {
+      width: 45%;
+    }
+  }
+  .fv-addComments .fv-addCommentsRate .fv-cleaningRateStars {
+    margin-right: 18%;
+  }
+}
+@media (max-width: 320px) {
+  .fv-addComments {
+    .fv-addCommentsRateTopic{
+      margin-top: 65%;
+      margin-bottom: 2%;
+    }
+   .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo svg {
+     padding: 8px;
+     margin: -16px;
+    }
+  }
+  .fv-addComments .fv-addCommentsRate .col-md-6 {
+    font-size: 3vw;
+  }
+  .fv-addComments .fv-addCommentsRate .fv-cleaningRateStars {
+    margin-right: 15%;
+  }
+}
+@media (max-width: 280px) {
+  .fv-addComments {
+    .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo svg {
+      padding: 12px;
+      margin: -19px;
+    }
+  }
+}

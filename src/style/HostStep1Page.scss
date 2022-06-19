@@ -1,0 +1,174 @@
+
+.fv-HostStep1Page {
+
+  .fv-HostStep1PageBody {
+    direction: rtl;
+
+    .fv-hostStepPage1Right {
+      text-align: initial;
+      margin-top: 2%;
+
+      .button, input, textarea, select, [textarea] {
+        width: 60%;
+        border: 1px solid rgba(145, 145, 145, 0.5);
+        border-radius: 14px;
+        height: 54px;
+
+      }
+
+      select {
+        background: white;
+        margin: 1px;
+      }
+
+      textarea {
+        height: 40%;
+        // border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 14px;
+
+      }
+
+      h6 {
+        margin-bottom: 1%;
+        margin-top: 4.5%;
+      }
+
+      .fv-hostStep2Page2P, .fv-hostStep2Page2Textarea, .fv-hostStep2Page2Map {
+        display: none;
+      }
+    }
+
+    .fv-hostStepPage1Left {
+      text-align: initial;
+      margin-top: 2%;
+
+      .fv-hostStepPage1LeftImage {
+        /* margin-left: 8%; */
+        margin-inline-start: auto;
+        width: 303px;
+        height: 243px;
+      }
+
+      .fv-hostStepPage1LeftButton {
+        float: left;
+        margin-left: 18%;
+        /*padding: 3.5% 10.8% 3.5% 10.8%;*/
+        border-radius: 16px;
+        background-color: #15BE29;
+        border: none;
+        color: white;
+        font-size: 13px;
+        margin-top: 15%;
+        width: 195.5px;
+        height: 67px;
+      }
+
+      .fv-hostStepPage2LeftButtonBody {
+        direction: ltr;
+      }
+
+      .fv-hostStepPage1LeftContentBody {
+        width: 99%;
+        border: 1px solid #88888817;
+        box-shadow: 0px 4px 14px rgba(14, 15, 15, 0.08);
+        border-radius: 16px;
+        padding: 3%;
+        padding-left: 8%;
+
+      }
+
+      .fv-hostStepPage2LeftButton {
+        display: none;
+      }
+    }
+
+  }
+
+
+  .fv-alertNotErrorText {
+    display: none;
+  }
+
+  .fv-alertErrorText {
+    color: mediumvioletred;
+    border-bottom: 1px solid #E88F0A;
+  }
+
+  .fv-alertErrorTextWithoutBorder {
+    color: mediumvioletred;
+    margin-right: 3%;
+
+    .fas, .fa {
+      color: mediumvioletred;
+      margin-left: 2%;
+    }
+  }
+
+  .fv-HostStep1PageBody .fv-hostStepPage1Left.fv-hostStepPageSpace .fv-hostStepPage1LeftButton {
+    margin-left: 7%;
+  }
+
+  .hostStepPage .footerHostStep1Page .col-md-9 {
+    margin-top: 1%;
+    padding: 0;
+    margin-top: 1%;
+    margin-right: -2%;
+    width: 32vw;
+  }
+}
+
+.fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Right .fv-redBorderError {
+  border: 1px solid red;
+  background: #E88F0A;
+}
+
+
+@media (max-width: 1200px) and (min-width: 767px) {
+
+  .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Right .button, .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Right input, .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Right textarea, .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Right select {
+    width: 90%;
+  }
+  .fv-hostStepPage1LeftImage {
+    width: 245px;
+    height: 223px;
+  }
+  .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage1LeftButton {
+    border-radius: 8px;
+    margin-left: 5vw;
+    /* padding: 5.4% 13.4% 5.4% 13.4%; */
+    width: 24vw;
+    height: 9vw;
+    margin-top: 18vw;
+  }
+
+
+}
+
+@media (max-width: 767px) {
+  .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage1LeftContentBody {
+    display: none;
+  }
+  .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Right .button, .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Right input, .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Right select {
+    width: 100%;
+    height: 46px;
+    border-radius: 7px;
+  }
+  .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Right textarea {
+    width: 100%;
+    border-radius: 1px;
+  }
+  .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Right {
+    margin-right: 4%;
+    margin-left: 4%;
+    z-index: 5;
+  }
+  .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage1LeftButton {
+    border-radius: 8px;
+    margin-left: 9vw;
+    /* padding: 5.4% 13.4% 5.4% 13.4%; */
+    width: 40vw;
+    height: 16vw;
+    margin-top: 52vw;
+  }
+}
+

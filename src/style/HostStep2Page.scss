@@ -1,0 +1,169 @@
+$backgroundColorFooter:#C9FFBA;
+$colorText:#3EC886;
+$selectedColor:#919191;
+$unselectedBackground: #F4F4F4;
+$unselectedColor:rgba(145, 145, 145, 0.11);
+$unselectedTextColor:rgba(145, 145, 145, 0.5);
+.fv-HostStep2Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton{
+ /* display: flex;
+  float: left;
+  margin-left: -31%;
+  padding: 3.5% 10.8% 3.5% 10.8%;
+  border: none;
+  font-size: 13px;
+  margin-top: 7%;*/
+  margin-left: 26%;
+  place-content: center;
+  color: #15BE29;
+  background: #FBFBFB;
+  box-shadow: 0px 4px 14px rgba(14, 15, 15, 0.08);
+  border-radius: 16px;
+}
+.fv-HostStep2Page .fv-HostStep1Page .hostStepPage .footerHostStep1Page .hide_desktop{
+  display: initial;
+}
+.fv-HostStep2Page .fv-HostStep1Page .hostStepPage .footerHostStep1Page .hide_mobile{
+  display: none;
+}
+.fv-HostStep2Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButtonBody{
+  direction: ltr;
+}
+.fv-HostStep2Page.fv-HostStep2Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+  display: block;
+}
+.fv-HostStep2Page .fv-hostStep2PageSelect{
+  background-color: #919191;
+  border-radius: 22px;
+}
+.fv-HostStep2Page .hostStepPage .fv-headerHomeImage .fv-hostStep2PageSelectIcon i {
+  color: #3EC886;
+  background-color: #C9FFBA;
+}
+.fv-HostStep2Page .hostStepPage .fv-headerHomeImage .fv-hostStep2PageSelectIcon p {
+  color: black;
+}
+.fv-hostStepPage1LeftButton {
+  z-index: 1;
+  position: relative;
+}
+.fv-hostStepPage2LeftButton.fv-hostStepPage1LeftButton {
+  z-index: 0;
+}
+.fv-HostStep2Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left.fv-hostStepPageSpace .fv-hostStepPage2LeftButton {
+  margin-left:  -15%;
+}
+.fv-HostStep2Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left.fv-hostStepPageSpace .fv-hostStepPage2LeftButtonBodySharedButton .fv-hostStepPage2LeftButton {
+  margin-left: -5%;
+}
+.fv-cityLoader {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.fv-cityLoader .circular {
+  animation: rotate 2s linear infinite;
+  height: 28%;
+  transform-origin: center center;
+  width: 13%;
+  position: initial;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.fv-HostStep2Page .fv-hideLoaderCityLoad{
+  display: none;
+}
+.fv-cityLoaderNextBottom .circular {
+  animation: rotate 2s linear infinite;
+  height: 28%;
+  transform-origin: center center;
+  width: 36%;
+  position: initial;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.fv-HostStep2Page{
+   .fv-HostStep1PageBody .fv-hostStepPage1Right h6 {
+    margin-bottom: 2%;
+    margin-top: 4.5%;
+  }
+  .fv-HostStep1PageBody .fv-hostStepPage1Left.fv-hostStepPageSpace .fv-hostStepPage1LeftButton.fv-NextBottomWaitingHostStep2Page {
+    margin-left: 7%;
+    margin-right: 18%;
+  }
+}
+
+
+
+
+  @media (max-width: 1200px) and (min-width: 767px){
+  .fv-HostStep2Page.fv-HostStep2Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+    margin-left: 131%;
+    /* padding: 5% 15% 5% 15%; */
+    margin-top: -38%;
+    margin-right: -51%;
+    z-index: 2;
+  }
+  .fv-HostStep2PageOnly.fv-HostStep2Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+    margin-left: 71%;
+    /* padding: 5% 15% 5% 15%; */
+    margin-top: -21.5%;
+    margin-right: -41%;
+    z-index: 2;
+  }
+
+}
+@media (max-width: 767px){
+  .fv-HostStep2Page .fv-HostStep1PageBody .fv-hostStepPage1Left.fv-hostStepPageSpace .fv-hostStepPage1LeftButton.fv-NextBottomWaitingHostStep2Page {
+    margin-left: 7%;
+    margin-right: 8%;
+  }
+}
+@media (max-width: 767px) and (min-width: 500px) {
+  .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage1LeftButton {
+    border-radius: 8px;
+    margin-left: 0vw;
+    /* padding: 5.4% 13.4% 5.4% 13.4%; */
+    width: 28vw;
+    height: 11vw;
+    margin-top: 52vw;
+  }
+  .fv-HostStep2Page.fv-HostStep2Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+    display: flex;
+    border-radius: 8px;
+    margin-left: 13vw;
+    /* padding: 5.4% 13.4% 5.4% 13.4%; */
+    width: 28vw;
+    height: 11vw;
+    margin-top: 52vw;
+    z-index: 1;
+  }
+
+
+}
+@media (max-width: 500px) {
+  .fv-hostStep2Page2.fv-HostStep2Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+    margin-left: 6%;
+  }
+  .fv-HostStep2Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left.fv-hostStepPageSpace .fv-hostStepPage2LeftButton {
+    margin-left: -4%;
+  }
+
+}
+@media (max-width: 320px) {
+  .fv-HostStep2Page.fv-HostStep2Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+
+  }
+}
+@media (max-width: 280px) {
+  .fv-HostStep2Page.fv-HostStep2Page .fv-HostStep1Page .fv-HostStep1PageBody .fv-hostStepPage1Left .fv-hostStepPage2LeftButton {
+
+  }
+}
+
+

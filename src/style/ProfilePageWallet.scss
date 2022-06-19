@@ -1,0 +1,374 @@
+
+.fv-ProfilePageWallet {
+
+  .fv-ProfilePageWalletWalletImage {
+    // height: 35%;
+    img {
+      width: 100%;
+      height: 80%;
+      border-radius: 15px;
+      margin-top: -30%;
+    }
+
+    p {
+      margin-right: 9%;
+      position: inherit;
+    }
+
+    h6 {
+      margin-right: 9%;
+      position: inherit;
+    }
+
+    .fv-ProfilePageWalletWalletImageP {
+      margin-top: 16%;
+    }
+
+    .fv-ProfilePageWalletWalletImagePWhiteColor {
+      color: white;
+    }
+
+    .fv-ProfilePageUserSetInfo h5 {
+      margin-bottom: -1%;
+    }
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo.fv-ProfilePageReservationUserInfo {
+    box-shadow: none;
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageWalletWalletButton .fv-ProfilePageUserSetInfoButton input {
+    width: 70.5%;
+    padding: 0;
+    margin-left: 6%;
+    margin-top: 20%;
+  }
+
+  .fv-ProfilePageWalletWalletButton {
+    place-content: flex-end;
+
+    input {
+      width: 60%;
+    }
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+    padding-right: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-left: 6.5%;
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo .fv-ProfilePageUserSetInfoButton input {
+    width: 100%;
+    margin-right: 129%;
+    padding: 0;
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo select {
+    padding-right: 3%;
+    width: 85%;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 14px;
+  }
+
+  .fv-tableDiscriptions {
+    width: 40%;
+  }
+
+  .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-accommodationOption {
+    padding-right: 3%;
+    width: 50%;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 14px;
+  }
+
+  .fv-areYouSureDeleteFinancialHide {
+    display: none;
+  }
+}
+
+.fv-ProfilePageTransaction2.fv-ProfilePageWallet.fv-profileWalletInner .fv-areYouSureDeleteFinancial {
+  background: white;
+  padding-bottom: 2%;
+  border: 1px solid;
+  width: 33%;
+  position: fixed;
+  margin-top: -25%;
+  z-index: 100;
+  border-radius: 10px;
+
+  .fv-notSureButton input {
+    background: #15BE29;
+    color: white;
+  }
+
+  h6 {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+}
+
+.fv-ProfilePageTransaction2.fv-ProfilePageWallet.fv-profileWalletInner .fv-blurAllPage {
+  background-color: rgba(255, 255, 255, 0.3);
+  filter: blur(2px);
+}
+
+
+.fv-ProfilePageTransaction2.fv-ProfilePageWallet.fv-profileWalletInner .fv-SureButton input {
+  color: #15BE29;
+  background: #FBFBFB;
+  box-shadow: 0px 4px 14px rgba(14, 15, 15, 0.08);
+  border-radius: 16px;
+  border: none;
+}
+
+.fv-ProfilePageTransaction2.fv-ProfilePageWallet.fv-profileWalletInner .fv-areYouSureDeleteFinancialTitle {
+  background: #3EC886;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.fv-ProfilePageTransaction2.fv-ProfilePageWallet.fv-profileWalletInner .fv-ProfilePageReservationSetInfo .fv-accommodationsSelectOptionInSearch {
+  width: 100%;
+}
+
+@media (max-width: 991px) and (min-width: 764px) {
+  .fv-ProfilePageWallet .fv-ProfilePageWalletWalletImage img {
+    margin-top: -38%;
+    height: 134px;
+  }
+  .fv-ProfilePageWallet .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageWalletWalletButton .fv-ProfilePageUserSetInfoButton input {
+    width: 84.5%;
+  }
+
+  .fv-ProfilePageWallet .fv-ProfilePageLeftBody .fv-ProfilePageWalletWalletImage p {
+    font-size: 11px;
+  }
+  .fv-ProfilePageWallet .fv-ProfilePageWalletWalletImage img {
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+  }
+  .fv-ProfilePageWallet .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageWalletWalletButton .fv-ProfilePageUserSetInfoButton input {
+    font-size: 14px;
+  }
+  .fv-ProfilePageWallet .fv-ProfilePageWalletWalletImage .fv-ProfilePageWalletWalletImageP {
+    margin-top: 28%;
+    height: 32%;
+  }
+}
+
+@media (max-width: 766px) {
+  .fv-ProfilePageWallet {
+
+    .fv-ProfilePageWalletWalletImage {
+      /* width: 100%; */
+      /* overflow-x: auto; */
+      /* border-collapse: collapse; */
+      /* width: 104%; */
+      /* border-radius: 15px; */
+      /* border-style: hidden; */
+      /* box-shadow: 0 0 0 1px #ddd; */
+      /* margin-top: 8%; */
+      overflow-x: auto;
+      margin-top: -51%;
+      margin-bottom: 49%;
+      display: inline-block !important;
+      /* overflow: auto; */
+      white-space: nowrap;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 1px;
+    }
+
+    .fv-ProfilePageWalletWalletImageMobile {
+      width: 62% !important;
+      height: 100%;
+      padding: 0;
+      padding-left: 4%;
+      /* overflow: auto; */
+      display: inline-block !important;
+      /* overflow: auto; */
+      white-space: nowrap;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+
+    .fv-ProfilePageWalletWalletImage p {
+      margin-right: 0%;
+      position: inherit;
+      font-size: 15px;
+    }
+
+    .fv-ProfilePageWalletWalletImage .fv-ProfilePageWalletWalletImageP {
+      margin-top: 23%;
+    }
+
+    .fv-ProfilePageWalletWalletImage img {
+      margin-top: -33%;
+      height: 111px;
+    }
+
+    .fv-ProfilePageLeftBody {
+      .fv-ProfilePageUserSetInfo h5 {
+        margin-bottom: 0%;
+      }
+
+      .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+        padding-right: 0%;
+        margin-right: 0%;
+        margin-left: 0%;
+        padding-left: 6.5%;
+      }
+
+      .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo .fv-ProfilePageUserSetInfoButton input {
+        width: 91%;
+        margin-right: 139%;
+      }
+
+      .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo .col-md-2 {
+        padding: 0;
+        margin-left: -6%;
+        margin-right: 10.5%;
+        margin-top: 2%;
+      }
+
+      .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo {
+        padding-right: 0px;
+        padding-left: 0%;
+        margin-right: -3%;
+        margin-left: 0%;
+        padding-left: -1.5%;
+      }
+    }
+
+    .fv-footerMenuMobileTitle {
+      // margin-top: 170%;
+    }
+
+    .fv-ProfilePageLeftBody .fv-ProfilePageWalletWalletImage p {
+      font-size: 11px;
+    }
+
+
+  }
+  .fv-ProfilePageWallet .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo .fv-ProfilePageUserSetInfoButton input {
+    width: 64%;
+    margin-right: 0%;
+    margin-left: 26%;
+    margin-top: 2%;
+  }
+  .fv-ProfilePageReservation.fv-ProfilePageReservation2.fv-ProfilePageTransaction.fv-ProfilePageTransaction2.fv-ProfilePageWallet table {
+    z-index: 3;
+  }
+
+  .fv-ProfilePageWallet .fv-ProfilePageReservationRightCalendar .DatePicker__calendarContainer.-top {
+    z-index: 100 !important;
+    position: absolute !important;
+    margin-right: 60px !important;
+    padding-right: 60px !important;
+  }
+  .fv-ProfilePageWallet .fv-ProfilePageReservationLeftCalendar .DatePicker__calendarContainer.-top {
+    z-index: 100 !important;
+    position: absolute !important;
+    margin-left: 20px !important;
+    padding-left: 20px !important;
+  }
+  .fv-ProfilePageWallet .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo .col-md-4 {
+    margin-left: 0%;
+    margin-right: 33px;
+    width: 103%;
+    margin-left: -7%;
+  }
+  .fv-ProfilePageReservation.fv-ProfilePageReservation2.fv-ProfilePageTransaction.fv-ProfilePageTransaction2.fv-ProfilePageWallet .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationRightCalendar input {
+    width: 31vw;
+    padding-right: 9%;
+    margin-right: -9%;
+  }
+  .fv-ProfilePageReservation.fv-ProfilePageReservation2.fv-ProfilePageTransaction.fv-ProfilePageTransaction2.fv-ProfilePageWallet .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .col-md-3 {
+    margin-left: 11vw;
+  }
+  .fv-ProfilePageWallet.fv-profileWalletInner .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo h5 {
+    margin-bottom: 0%;
+    margin-bottom: 58%;
+    margin-top: -12%;
+    z-index: -1;
+  }
+  .fv-ProfilePageWallet .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-accommodationOption {
+    width: 100%;
+  }
+  .fv-ProfilePageTransaction2.fv-ProfilePageWallet.fv-profileWalletInner .fv-ProfilePageReservationSetInfo .fv-accommodationsSelectOptionInSearch {
+    width: 100%;
+    color: #919191;
+    padding-right: 7%;
+    margin-right: -10%;
+  }
+  .fv-ProfilePageTransaction2.fv-ProfilePageWallet.fv-profileWalletInner .fv-areYouSureDeleteFinancial {
+    background: white;
+    padding-bottom: 2%;
+    border: 1px solid;
+    width: 67%;
+    position: fixed;
+    margin-top: 0%;
+    z-index: 100;
+    padding-right: 0;
+    margin: 0%;
+  }
+  .fv-ProfilePageTransaction2.fv-ProfilePageWallet.fv-profileWalletInner .fv-areYouSureDeleteFinancialTitle {
+    margin-right: 0;
+  }
+  .fv-ProfilePageTransaction2.fv-ProfilePageWallet.fv-profileWalletInner .fv-SureButton input {
+    margin-right: 4%;
+  }
+}
+
+@media (max-width: 376px) {
+  .fv-ProfilePageWallet .fv-ProfilePageReservationRightCalendar .DatePicker__calendarContainer.-top {
+    z-index: 100 !important;
+    position: absolute !important;
+    margin-right: 30px !important;
+    padding-right: 30px !important;
+  }
+  .fv-ProfilePageWallet .fv-ProfilePageReservationLeftCalendar .DatePicker__calendarContainer.-top {
+    z-index: 100 !important;
+    position: absolute !important;
+    margin-left: 10px !important;
+    padding-left: 10px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .fv-ProfilePageWallet .fv-ProfilePageWalletWalletImage img {
+    margin-top: -52%;
+    height: 102px;
+  }
+  .fv-ProfilePageWallet .fv-ProfilePageReservationRightCalendar .DatePicker__calendarContainer.-top {
+    z-index: 100 !important;
+    position: absolute !important;
+    margin-right: 40px !important;
+    padding-right: 40px !important;
+  }
+  .fv-ProfilePageWallet .fv-ProfilePageReservationLeftCalendar .DatePicker__calendarContainer.-top {
+    z-index: 100 !important;
+    position: absolute !important;
+    margin-left: 10px !important;
+    padding-left: 10px !important;
+  }
+  .fv-ProfilePageWallet .fv-ProfilePageLeftBody .fv-ProfilePageUserSetInfo .fv-ProfilePageReservationSetInfo .col-md-4 {
+    margin-left: 0%;
+    margin-right: 33px;
+    width: 103%;
+    margin-left: -3%;
+  }
+}
